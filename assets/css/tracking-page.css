@@ -1,0 +1,315 @@
+/**
+ * Customer transfer tracking page.
+ *
+ * Standalone, like the dealer portal. Optimised for a customer checking on
+ * their order from a phone, so the timeline reads vertically at every width and
+ * the dealer's phone number is a real tap target.
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+body.fflcs-tracking {
+	margin: 0;
+	min-height: 100vh;
+	background: var(--fflcs-bg-muted);
+	color: var(--fflcs-text);
+	font-family: var(--fflcs-font);
+	font-size: var(--fflcs-text-base);
+	line-height: 1.55;
+	-webkit-font-smoothing: antialiased;
+}
+
+.fflcs-tracking__shell {
+	max-width: 620px;
+	margin: 0 auto;
+	padding: var(--fflcs-space-6) var(--fflcs-space-4) var(--fflcs-space-8);
+}
+
+.fflcs-tracking__brand {
+	padding: var(--fflcs-space-4) 0;
+	text-align: center;
+}
+
+.fflcs-tracking__brand img {
+	height: 32px;
+	width: auto;
+}
+
+.fflcs-tracking__card {
+	padding: var(--fflcs-space-6);
+	background: var(--fflcs-bg);
+	border-radius: var(--fflcs-radius-lg);
+	box-shadow: var(--fflcs-shadow);
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+
+.fflcs-tracking__header {
+	padding-bottom: var(--fflcs-space-5);
+	border-bottom: 1px solid var(--fflcs-border);
+	margin-bottom: var(--fflcs-space-6);
+}
+
+.fflcs-tracking__eyebrow {
+	margin: 0 0 var(--fflcs-space-1);
+	font-size: var(--fflcs-text-xs);
+	font-weight: 650;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-tracking__header h1 {
+	margin: 0 0 var(--fflcs-space-2);
+	font-size: var(--fflcs-text-xl);
+	font-weight: 700;
+	line-height: 1.25;
+}
+
+.fflcs-tracking__status {
+	margin: 0;
+	font-size: var(--fflcs-text-base);
+	font-weight: 650;
+}
+
+/* ── Timeline ───────────────────────────────────────────────────────────── */
+
+.fflcs-timeline {
+	margin: 0 0 var(--fflcs-space-6);
+	padding: 0;
+	list-style: none;
+}
+
+.fflcs-timeline__step {
+	position: relative;
+	display: grid;
+	grid-template-columns: 28px 1fr auto;
+	align-items: center;
+	gap: var(--fflcs-space-3);
+	padding: var(--fflcs-space-3) 0;
+}
+
+/* The connecting rail, drawn from each marker down to the next step. */
+.fflcs-timeline__step::before {
+	content: "";
+	position: absolute;
+	left: 13px;
+	top: 34px;
+	bottom: -6px;
+	width: 2px;
+	background: var(--fflcs-border);
+}
+
+.fflcs-timeline__step:last-child::before {
+	display: none;
+}
+
+.fflcs-timeline__step.is-done::before {
+	background: var(--fflcs-success);
+}
+
+.fflcs-timeline__marker {
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	border: 2px solid var(--fflcs-border-strong);
+	background: var(--fflcs-bg);
+	position: relative;
+	z-index: 1;
+}
+
+.fflcs-timeline__step.is-done .fflcs-timeline__marker {
+	border-color: var(--fflcs-success);
+	background: var(--fflcs-success);
+}
+
+/* Checkmark drawn in CSS — no icon font, no SVG sprite to load. */
+.fflcs-timeline__step.is-done .fflcs-timeline__marker::after {
+	content: "";
+	position: absolute;
+	left: 8px;
+	top: 4px;
+	width: 6px;
+	height: 11px;
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+.fflcs-timeline__step.is-current .fflcs-timeline__marker {
+	border-color: var(--fflcs-primary);
+	box-shadow: 0 0 0 4px var(--fflcs-primary-light);
+}
+
+.fflcs-timeline__label {
+	font-weight: 600;
+}
+
+.fflcs-timeline__step:not(.is-done):not(.is-current) .fflcs-timeline__label {
+	color: var(--fflcs-text-muted);
+	font-weight: 500;
+}
+
+.fflcs-timeline__date {
+	font-size: var(--fflcs-text-xs);
+	color: var(--fflcs-text-muted);
+	white-space: nowrap;
+}
+
+/* ── Panels ─────────────────────────────────────────────────────────────── */
+
+.fflcs-tracking__panel {
+	padding: var(--fflcs-space-4);
+	margin-bottom: var(--fflcs-space-4);
+	background: var(--fflcs-bg-subtle);
+	border: 1px solid var(--fflcs-border);
+	border-radius: var(--fflcs-radius);
+}
+
+.fflcs-tracking__panel h2 {
+	margin: 0 0 var(--fflcs-space-2);
+	font-size: var(--fflcs-text-xs);
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-tracking__panel p {
+	margin: 0 0 var(--fflcs-space-3);
+}
+
+.fflcs-tracking__dealer-name {
+	font-size: var(--fflcs-text-lg);
+	font-weight: 650;
+	margin-bottom: var(--fflcs-space-1) !important;
+}
+
+.fflcs-tracking__dealer-address {
+	color: var(--fflcs-text-muted);
+	font-size: var(--fflcs-text-sm);
+}
+
+.fflcs-tracking__dealer-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--fflcs-space-2);
+}
+
+.fflcs-tracking__btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 44px;
+	padding: 10px var(--fflcs-space-4);
+	border: 1px solid transparent;
+	border-radius: var(--fflcs-radius-sm);
+	background: var(--fflcs-primary);
+	color: #fff;
+	font-size: var(--fflcs-text-sm);
+	font-weight: 600;
+	text-decoration: none;
+	transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.fflcs-tracking__btn:hover {
+	background: var(--fflcs-primary-dark);
+}
+
+.fflcs-tracking__btn--ghost {
+	background: transparent;
+	border-color: var(--fflcs-border-strong);
+	color: var(--fflcs-text);
+}
+
+.fflcs-tracking__btn--ghost:hover {
+	background: var(--fflcs-bg-muted);
+	border-color: var(--fflcs-primary);
+}
+
+.fflcs-tracking__btn:focus-visible {
+	outline: 2px solid transparent;
+	box-shadow: var(--fflcs-focus-ring);
+}
+
+.fflcs-tracking__hint {
+	margin: var(--fflcs-space-3) 0 0 !important;
+	font-size: var(--fflcs-text-sm);
+	color: var(--fflcs-text-muted);
+}
+
+/* ── Alerts + messages ──────────────────────────────────────────────────── */
+
+.fflcs-tracking__alert {
+	padding: var(--fflcs-space-4);
+	margin-bottom: var(--fflcs-space-5);
+	border-radius: var(--fflcs-radius);
+	font-size: var(--fflcs-text-sm);
+	line-height: 1.55;
+}
+
+.fflcs-tracking__alert--warning {
+	background: var(--fflcs-warning-light);
+	color: var(--fflcs-warning);
+}
+
+.fflcs-tracking__alert--danger {
+	background: var(--fflcs-danger-light);
+	color: var(--fflcs-danger);
+}
+
+.fflcs-tracking__message {
+	text-align: center;
+	padding: var(--fflcs-space-6) 0;
+}
+
+.fflcs-tracking__message h1 {
+	margin: 0 0 var(--fflcs-space-2);
+	font-size: var(--fflcs-text-xl);
+}
+
+.fflcs-tracking__message p {
+	margin: 0;
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-tracking__legal {
+	margin: var(--fflcs-space-5) 0 0;
+	padding-top: var(--fflcs-space-4);
+	border-top: 1px solid var(--fflcs-border);
+	font-size: var(--fflcs-text-xs);
+	line-height: 1.6;
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-tracking__footer {
+	padding-top: var(--fflcs-space-5);
+	text-align: center;
+	font-size: var(--fflcs-text-xs);
+	color: var(--fflcs-text-muted);
+}
+
+@media (max-width: 480px) {
+	.fflcs-tracking__shell {
+		padding: var(--fflcs-space-3) var(--fflcs-space-3) var(--fflcs-space-6);
+	}
+
+	.fflcs-tracking__card {
+		padding: var(--fflcs-space-4);
+	}
+
+	.fflcs-timeline__step {
+		grid-template-columns: 28px 1fr;
+	}
+
+	.fflcs-timeline__date {
+		grid-column: 2;
+		margin-top: -4px;
+	}
+
+	.fflcs-tracking__dealer-actions .fflcs-tracking__btn {
+		flex: 1 1 100%;
+	}
+}

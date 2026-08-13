@@ -1,0 +1,4084 @@
+# Copyright (C) 2026 WordPressistic
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: FFL Checkout Solutions 2.0.0\n"
+"Report-Msgid-Bugs-To: https://fflistic.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-13T00:00:00+00:00\n"
+"X-Domain: ffl-checkout-solutions\n"
+"Language-Team: WordPressistic\n"
+
+#: includes/admin/class-admin-activity-log.php:32 includes/admin/class-admin-activity-log.php:33 includes/admin/class-admin-activity-log.php:82
+msgid "Activity Log"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:83
+msgid "Every recorded action, in order. Entries are only ever appended — nothing in this plugin edits or deletes a row here."
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:90
+msgid "All event types"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:97 includes/admin/class-admin-compliance.php:160 includes/admin/class-admin-dealers.php:141 includes/admin/class-admin-transfers.php:111
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:103 includes/admin/class-admin-diagnostics.php:275 includes/admin/class-admin-transfers.php:331 includes/modules/verification-hub/class-verification-hub.php:290
+msgid "When"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:104 includes/admin/class-admin-transfers.php:332
+msgid "Event"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:105 includes/admin/class-admin-carriers.php:106 includes/admin/class-admin-transfers.php:175 includes/frontend/class-tracking-page.php:140
+msgid "Transfer"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:106 includes/admin/class-admin-transfers.php:333
+msgid "Change"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:107 includes/admin/class-admin-transfers.php:334
+msgid "By"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:108
+msgid "IP"
+msgstr ""
+
+#: includes/admin/class-admin-activity-log.php:113 includes/admin/class-admin-transfers.php:326
+msgid "No events recorded yet."
+msgstr ""
+
+#: includes/admin/class-admin-addons.php:40 includes/admin/class-admin-addons.php:41 includes/admin/class-admin-addons.php:55
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/class-admin-addons.php:56
+msgid "Switch features on and off. Anything switched off registers no hooks, no endpoints and no scheduled jobs — but keeps its settings and history."
+msgstr ""
+
+#: includes/admin/class-admin-addons.php:111
+msgid "Data sent:"
+msgstr ""
+
+#: includes/admin/class-admin-addons.php:118
+msgid "Always on"
+msgstr ""
+
+#: includes/admin/class-admin-addons.php:121
+msgid "Unlock"
+msgstr ""
+
+#: includes/admin/class-admin-addons.php:130
+msgid "Turn off"
+msgstr ""
+
+#: includes/admin/class-admin-addons.php:130
+msgid "Turn on"
+msgstr ""
+
+#: includes/admin/class-admin-addons.php:137
+msgid "Configure"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:45 includes/admin/class-admin-carriers.php:46 includes/admin/class-admin-carriers.php:60 includes/admin/class-admin-settings.php:69
+msgid "Carriers"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:61
+msgid "Shipment tracking for firearms in transit to your dealers."
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:65 includes/class-addon-manager.php:189
+msgid "Carrier Tracking & Labels"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:68
+msgid "Tracking numbers can still be recorded by hand on any transfer, and the customer tracking page will link to the carrier. This module adds automatic status updates and label purchase."
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:80
+msgid "Configuration"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:82
+msgid "API keys and the webhook secret live under Settings → Carriers, encrypted at rest."
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:86
+msgid "Open carrier settings"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:90
+msgid "Webhook endpoint"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:93
+msgid "Point your carrier account at this URL to receive status pushes. Every request is HMAC-verified against your webhook secret."
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:98
+msgid "In transit"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:101
+msgid "Nothing is currently in transit with a tracking number recorded."
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:107 includes/admin/class-admin-transfers.php:234
+msgid "Carrier"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:108 includes/frontend/class-dealer-portal.php:123 includes/services/class-mailer.php:454
+msgid "Tracking"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:109
+msgid "Shipped"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:131
+msgid "Check all now"
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:146 includes/admin/class-admin-diagnostics.php:311 includes/admin/class-admin-diagnostics.php:327 includes/admin/class-admin-distributors.php:242 includes/admin/class-admin-transfers.php:413 includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:263
+msgid "You do not have permission to do that."
+msgstr ""
+
+#: includes/admin/class-admin-carriers.php:168
+msgid "Checked %d shipment."
+msgid_plural "Checked %d shipments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin-compliance.php:48 includes/admin/class-admin-compliance.php:49 includes/admin/class-admin-compliance.php:63 includes/admin/class-admin-settings.php:73 includes/class-addon-manager.php:559
+msgid "Compliance"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:64
+msgid "Record-keeping and review queues. Nothing on these screens files anything with ATF or makes a compliance decision for you."
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:68
+msgid "State rules"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:69
+msgid "Bound book"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:70
+msgid "Multiple sales"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:71
+msgid "Verification hub"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:72
+msgid "Audit"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:79
+msgid "Bound Book"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:82 includes/class-addon-manager.php:225
+msgid "Multiple Sale Watcher"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:85 includes/class-addon-manager.php:234
+msgid "FFL Verification Hub"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:119
+msgid "This module is on but has nothing to show yet."
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:148
+msgid "These notices appear at checkout for buyers in the matching state. They ship as conservative defaults for you to review with your own counsel — firearms law changes often, and keeping these current is your call, not the plugin\\'s."
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:155 includes/admin/class-admin-dealers.php:132
+msgid "All states"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:166 includes/admin/class-admin-compliance.php:202 includes/admin/class-admin-diagnostics.php:199 includes/frontend/class-checkout-widget.php:137 includes/modules/ops-tools/class-ops-tools.php:67
+msgid "State"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:167
+msgid "Rule"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:168 includes/admin/class-admin-compliance.php:185
+msgid "Notice"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:169 includes/admin/class-admin-compliance.php:223
+msgid "Applies to"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:170
+msgid "Blocking"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:171 includes/admin/class-admin-dealers.php:202 includes/modules/verification-hub/class-verification-hub.php:239
+msgid "Active"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:180
+msgid "all"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:183
+msgid "Blocks"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:188 includes/admin/class-admin-compliance.php:259 includes/admin/class-admin-license.php:219
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:188 includes/admin/class-admin-compliance.php:259
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:194
+msgid "Add or update a rule"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:212
+msgid "Rule key"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:215
+msgid "A short identifier, for example waiting_period. Saving an existing state and key updates that rule."
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:219
+msgid "Notice text"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:226
+msgid "Comma-separated item types. Leave blank to apply to everything."
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:230
+msgid "Behaviour"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:232
+msgid "Prevent the order from being placed online"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:233
+msgid "A store policy control, not a legal determination. Blocking rules only take effect while strict compliance mode is on."
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:238
+msgid "Save rule"
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:273
+msgid "You do not have permission to edit compliance rules."
+msgstr ""
+
+#: includes/admin/class-admin-compliance.php:298
+msgid "Rule saved."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:40 includes/admin/class-admin-dashboard.php:41
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:59 includes/admin/class-admin-page.php:76 includes/admin/class-admin-page.php:77 includes/class-addon-manager.php:88
+msgid "FFL Checkout"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:60
+msgid "Transfer activity, dealer coverage and anything waiting on you."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:70
+msgid "Open transfers"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:72
+msgid "In progress right now"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:75
+msgid "Last 30 days"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:77
+msgid "New transfers created"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:80 includes/modules/analytics/class-analytics.php:97
+msgid "Completed"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:82
+msgid "All time"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:85
+msgid "Median days"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:87
+msgid "Order to pickup"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:90
+msgid "Active dealers"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:92
+msgid "Searchable at checkout"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:99
+msgid "Needs attention"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:104 includes/modules/analytics/class-analytics.php:115
+msgid "By status"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:111
+msgid "Recent transfers"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:116
+msgid "Dealer database"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:123
+msgid "30-day trend"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:144
+msgid "Your data was carried over."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:145
+msgid "FFL Checkout Solutions has been upgraded to version 2.0. Your dealers, transfers, events and settings were all preserved."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:147
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:170
+msgid "Setup is not finished yet. The guided steps take about two minutes and configure your store details, product flags and features."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:172
+msgid "Run setup"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:276
+msgid "Nothing needs your attention right now."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:303
+msgid "No transfers yet. They appear here once a customer orders an FFL-flagged product."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:345
+msgid "No transfers yet."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:350 includes/admin/class-admin-transfers.php:125 includes/frontend/class-dealer-portal.php:116 includes/modules/gdpr-tools/class-gdpr-tools.php:93 includes/modules/saved-dealers/class-saved-dealers.php:196 includes/services/class-mailer.php:443
+msgid "Reference"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:351 includes/admin/class-admin-transfers.php:126 includes/admin/class-admin-transfers.php:266
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:352 includes/admin/class-admin-dealers.php:177 includes/admin/class-admin-license.php:69 includes/admin/class-admin-transfers.php:129 includes/admin/class-admin-transfers.php:204 includes/modules/admin-2fa/class-admin-2fa.php:242
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:353 includes/admin/class-admin-transfers.php:130 includes/modules/gdpr-tools/class-gdpr-tools.php:117
+msgid "Created"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:385
+msgid "%1$s active dealers of %2$s on file."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:398
+msgid "Importing — file %1$d of %2$d."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:405
+msgid "No dealers imported yet. Run the ATF sync to populate the directory that checkout searches."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:409
+msgid "The last import did not finish."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:417
+msgid "Last imported %s."
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:427
+msgid "Manage dealers"
+msgstr ""
+
+#: includes/admin/class-admin-dashboard.php:203
+msgid "%d shipment awaiting dealer confirmation"
+msgid_plural "%d shipments awaiting dealer confirmation"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin-dashboard.php:223
+msgid "%d transfer with a reported problem"
+msgid_plural "%d transfers with reported problems"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin-dashboard.php:245
+msgid "%d delayed check has passed its three-business-day window"
+msgid_plural "%d delayed checks have passed their three-business-day window"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin-dashboard.php:267
+msgid "%d received transfer has no serial number recorded"
+msgid_plural "%d received transfers have no serial number recorded"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin-dealers.php:45 includes/admin/class-admin-dealers.php:46 includes/admin/class-admin-dealers.php:122
+msgid "Dealers"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:123
+msgid "The FFL directory your customers search at checkout. Recommend dealers you trust and record the fees they charge."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:130
+msgid "Name, licence number or city"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:139
+msgid "Recommended only"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:150
+msgid "Import in progress…"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:151
+msgid "Sync ATF dealer list"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:163
+msgid "Importing in the background — %s dealers so far. You can leave this page."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:173 includes/license/class-entitlement.php:109 includes/modules/form-4473/class-form-4473.php:108
+msgid "Business"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:174 includes/admin/class-admin-license.php:45 includes/admin/class-admin-license.php:46 includes/admin/class-admin-license.php:62 includes/admin/class-admin-setup-wizard.php:159 includes/modules/form-4473/class-form-4473.php:109
+msgid "Licence"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:175
+msgid "Location"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:176 includes/modules/ops-tools/class-ops-tools.php:76
+msgid "Fee"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:183
+msgid "No dealers matched. If the directory is empty, run the ATF sync above."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:194 includes/frontend/class-checkout-widget.php:257
+msgid "Recommended"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:204
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:226 includes/admin/class-admin-transfers.php:128 includes/admin/class-admin-transfers.php:272 includes/modules/ops-tools/class-ops-tools.php:94 includes/modules/saved-dealers/class-saved-dealers.php:198 includes/modules/verification-hub/class-verification-hub.php:222
+msgid "Dealer"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:227
+msgid "That dealer no longer exists."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:235
+msgid "All dealers"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:244 includes/modules/form-4473/class-form-4473.php:110
+msgid "Premises"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:247
+msgid "Address and licence details come from the ATF file and refresh on each sync, so they are not editable here."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:251 includes/frontend/class-checkout-widget.php:258
+msgid "Transfer fee"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:254
+msgid "Shown to customers at checkout. Leave at zero to display \"contact dealer for fee\"."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:258 includes/frontend/class-dealer-onboard.php:121
+msgid "Contact email"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:261
+msgid "Where confirmation links are sent. The ATF file does not include email addresses, so this is usually blank until you add it."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:265 includes/admin/class-admin-settings.php:237 includes/admin/class-admin-setup-wizard.php:198 includes/admin/class-admin-transfers.php:270 includes/frontend/class-checkout-widget.php:104 includes/frontend/class-dealer-onboard.php:126
+msgid "Phone"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:269
+msgid "Visibility"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:271
+msgid "Recommend this dealer — shown first at checkout"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:272
+msgid "Selectable at checkout"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:276
+msgid "Internal notes"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:279
+msgid "Staff-only. Never shown to customers or exposed through the API."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:284
+msgid "Save dealer"
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:298
+msgid "You do not have permission to edit dealers."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:324
+msgid "Dealer saved."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:337
+msgid "You do not have permission to run the sync."
+msgstr ""
+
+#: includes/admin/class-admin-dealers.php:350
+msgid "ATF import queued. Progress appears here shortly."
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:52 includes/admin/class-admin-diagnostics.php:53 includes/admin/class-admin-diagnostics.php:67
+msgid "Diagnostics"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:68
+msgid "What this installation actually looks like right now. Useful to have open when contacting support."
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:87
+msgid "PHP version"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:92
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:93
+msgid "not detected"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:97
+msgid "HPOS (order storage)"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:99
+msgid "enabled — compatibility declared"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:100
+msgid "not enabled — compatibility declared"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:104
+msgid "Database tables"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:107
+msgid "%1$d of %2$d present"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:114
+msgid "Schema version"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:115
+msgid "unknown"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:119
+msgid "Secret encryption"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:121
+msgid "AES-256-GCM available"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:122
+msgid "OpenSSL unavailable — secrets stored unencrypted"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:126
+msgid "Token secret"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:128
+msgid "from wp-config.php constant"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:129
+msgid "stored in the database"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:133
+msgid "Action Scheduler"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:135
+msgid "available"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:136
+msgid "not available — falling back to WP-Cron"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:140
+msgid "ZIP centroids cached"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:145
+msgid "Private upload directory"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:147
+msgid "present and protected"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:148 includes/modules/bound-book/class-bound-book.php:234
+msgid "missing"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:153
+msgid "Health"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:162
+msgid "OK"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:163
+msgid "Check"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:176
+msgid "Rebuild missing tables"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:190
+msgid "Modules"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:193
+msgid "The module loader did not run."
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:198
+msgid "Module"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:206
+msgid "Running"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:226
+msgid "ATF dealer sync"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:227
+msgid "Nightly maintenance"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:228
+msgid "Carrier status poll"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:229
+msgid "NICS delay alerts"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:230
+msgid "Compliance reminders"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:231
+msgid "Dealer health alerts"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:232
+msgid "Regulatory watch"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:233
+msgid "Webhook retries"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:234
+msgid "Licence validation"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:235
+msgid "Update check"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:238
+msgid "Scheduled jobs"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:240
+msgid "Job"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:241
+msgid "Next run"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:253
+msgid "not scheduled"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:266
+msgid "Mail log"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:267
+msgid "The last 100 send attempts. Recipient addresses are partly masked."
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:270
+msgid "No mail sent yet."
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:276 includes/modules/bound-book/class-bound-book.php:218
+msgid "To"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:277
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:278 includes/modules/verification-hub/class-verification-hub.php:271 includes/modules/verification-hub/class-verification-hub.php:292
+msgid "Result"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:288
+msgid "Sent"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:289
+msgid "Failed"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:300
+msgid "Clear the mail log"
+msgstr ""
+
+#: includes/admin/class-admin-diagnostics.php:338
+msgid "Schema rebuilt."
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:49 includes/admin/class-admin-distributors.php:50 includes/admin/class-admin-distributors.php:64 includes/class-addon-manager.php:563
+msgid "Distributors"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:65
+msgid "Wholesale catalog sync and drop-ship ordering. Catalog sync is automatic; placing an order is always a deliberate click."
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:69
+msgid "Distributor integrations"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:81
+msgid "No distributor modules are available."
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:101
+msgid "Turn this distributor on"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:130
+msgid "Integration status"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:156
+msgid "Credentials are encrypted at rest. Leave a field blank to keep its current value."
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:158
+msgid "Save credentials"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:163
+msgid "Catalog"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:166
+msgid "Products cached"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:168
+msgid "Last sync"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:169
+msgid "never"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:170 includes/payments/class-gateway-nmi.php:75
+msgid "Credentials"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:173
+msgid "Configured"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:175
+msgid "Not set"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:178
+msgid "Orders submitted"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:187
+msgid "Sync catalog now"
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:192
+msgid "Syncing the catalog only reads data. It never places an order."
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:204
+msgid "You do not have permission to configure distributors."
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:229
+msgid "Credentials saved."
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:251
+msgid "That distributor is not available."
+msgstr ""
+
+#: includes/admin/class-admin-distributors.php:260
+msgid "Catalog synced — %d products cached."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:63
+msgid "Your licence unlocks premium modules and delivers updates and security patches to this site."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:76
+msgid "%s plan — active"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:86
+msgid "This licence has expired. Renew it to restore premium modules."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:89
+msgid "This licence key was not accepted. Check it, or contact support."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:92
+msgid "This licence is not currently active."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:98
+msgid "Running on the free tier. Core FFL checkout, dealer management, the confirmation portal and state notices all work with no licence."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:104
+msgid "Key"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:109 includes/modules/verification-hub/class-verification-hub.php:223
+msgid "Expires"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:114
+msgid "Last verified"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:119
+msgid "Sites"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:123
+msgid "Version"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:129
+msgid "This key comes from the FFLCS_LICENSE_KEY constant in wp-config.php, so it cannot be changed here."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:135
+msgid "Manage"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:143 includes/admin/class-admin-setup-wizard.php:301
+msgid "Licence key"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:150
+msgid "Re-activate"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:150 includes/admin/class-admin-setup-wizard.php:319
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:155
+msgid "Deactivate this site"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:163
+msgid "Re-check licence"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:166
+msgid "Check for updates"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:175
+msgid "Manage your subscription and find your key at <a href=\"%s\" target=\"_blank\" rel=\"noopener\">app.wpistic.com</a>."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:184
+msgid "What each plan includes"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:199
+msgid "Feature"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:200
+msgid "Plan"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:201
+msgid "Available here"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:220
+msgid "Upgrade"
+msgstr ""
+
+#: includes/admin/class-admin-license.php:234
+msgid "You do not have permission to manage the licence."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:252
+msgid "Licence activated."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:260
+msgid "This site has been deactivated."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:269
+msgid "Licence re-checked."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:270
+msgid "Could not reach the licence server. Your existing licence keeps working."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:288
+msgid "Version %s is available. Update from the Plugins screen."
+msgstr ""
+
+#: includes/admin/class-admin-license.php:291
+msgid "You are running the latest version."
+msgstr ""
+
+#: includes/admin/class-admin-page.php:130
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/admin/class-admin-page.php:131
+msgid "Saving…"
+msgstr ""
+
+#: includes/admin/class-admin-page.php:132
+msgid "Saved."
+msgstr ""
+
+#: includes/admin/class-admin-page.php:133
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/admin/class-admin-page.php:134
+msgid "Checking…"
+msgstr ""
+
+#: includes/admin/class-admin-page.php:148 includes/modules/ops-tools/class-ops-tools.php:48
+msgid "You do not have permission to view this page."
+msgstr ""
+
+#: includes/admin/class-admin-page.php:291
+msgid "This is part of the %s plan."
+msgstr ""
+
+#: includes/admin/class-admin-page.php:298
+msgid "View plans"
+msgstr ""
+
+#: includes/admin/class-admin-page.php:301
+msgid "Enter a licence key"
+msgstr ""
+
+#: includes/admin/class-admin-page.php:327
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin-settings.php:50 includes/admin/class-admin-settings.php:51 includes/admin/class-admin-settings.php:171
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:65
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:66
+msgid "Checkout"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:67 includes/admin/class-admin-transfers.php:268 includes/modules/form-4473/class-form-4473.php:97 includes/modules/gdpr-tools/class-gdpr-tools.php:109
+msgid "Email"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:68
+msgid "Portal"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:70 includes/class-addon-manager.php:562
+msgid "Payments"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:71 includes/class-addon-manager.php:565
+msgid "Integrations"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:72
+msgid "Theme"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:74
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:233
+msgid "Enable FFL Checkout"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:233
+msgid "Turn the whole plugin off without deactivating it. Records are preserved."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:234 includes/admin/class-admin-setup-wizard.php:183 includes/frontend/class-checkout-widget.php:133 includes/frontend/class-dealer-onboard.php:111
+msgid "Business name"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:235 includes/admin/class-admin-setup-wizard.php:187
+msgid "Your FFL licence number"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:236 includes/admin/class-admin-setup-wizard.php:194
+msgid "Notification email"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:238 includes/services/class-mailer.php:450
+msgid "Address"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:239
+msgid "Business hours"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:239
+msgid "Shown to dealers and customers on the portal and tracking pages."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:240 includes/admin/class-admin-setup-wizard.php:202
+msgid "Default transfer fee"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:240
+msgid "Used when a dealer has not told you their own fee."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:247
+msgid "Show the dealer selector at checkout"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:248
+msgid "Require a dealer before the order can be placed"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:248
+msgid "Off means orders can be placed without a dealer and assigned manually later."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:249
+msgid "Default search radius (miles)"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:250
+msgid "Email the dealer automatically once an order is paid"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:251
+msgid "Mark the WooCommerce order complete when every transfer on it is complete"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:258
+msgid "Email customers on status changes"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:259
+msgid "Email dealers confirmation links and reminders"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:260
+msgid "Email staff operational alerts"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:261
+msgid "From name"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:262
+msgid "From address"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:263
+msgid "Reply-to address"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:272
+msgid "Confirmation link lifetime"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:288
+msgid "Second factor"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:290
+msgid "None — the link alone is enough"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:291
+msgid "Last 4 of the FFL licence number"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:292
+msgid "Emailed one-time code"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:294
+msgid "The last-4 option guards against a misdirected email, not against a determined attacker. Use the emailed code where that matters."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:297
+msgid "Each link works only once"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:298
+msgid "Portal URL slug"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:298
+msgid "Changing this needs a permalink flush — visit Settings → Permalinks afterwards."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:299
+msgid "Reminder schedule (days)"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:299
+msgid "Comma-separated days after issue to remind a dealer who has not confirmed. For example: 3,7,14"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:306
+msgid "Advance a transfer to \"shipped\" when a tracking number is added"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:307
+msgid "Request adult signature on delivery when buying labels"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:308
+msgid "EasyPost API key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:308
+msgid "Encrypted at rest. Needed for live tracking and label purchase."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:309
+msgid "Carrier webhook secret"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:309
+msgid "Shared secret used to verify inbound carrier status pushes."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:316
+msgid "NMI"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:317
+msgid "Security key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:318
+msgid "Collect.js tokenisation key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:318
+msgid "Public by design — it is used in the browser so card data never reaches your server."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:319 includes/admin/class-admin-settings.php:324
+msgid "Test mode"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:321
+msgid "Credova"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:322
+msgid "Public key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:323
+msgid "Secret key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:331
+msgid "NICS webhook secret"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:331
+msgid "Used to verify signed background-check results posted to this site."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:336
+msgid "Your NICS webhook endpoint is %s"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:343
+msgid "SMS provider"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:345 includes/admin/class-admin-transfers.php:237
+msgid "— none —"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:346
+msgid "Twilio"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:347
+msgid "Verifyistic"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:351
+msgid "Account SID"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:352
+msgid "Auth token"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:353
+msgid "From number"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:361
+msgid "Primary"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:362
+msgid "Success"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:363
+msgid "Warning"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:364
+msgid "Danger"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:365
+msgid "Surface"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:366
+msgid "Inverse text"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:379
+msgid "Logo URL"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:379
+msgid "Used in emails, the dealer portal and the tracking page."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:380
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:380
+msgid "Applied to the checkout widget, portal and tracking page."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:387
+msgid "Let blocking state rules stop an order at checkout"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:387
+msgid "Off means every state rule is informational only."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:388
+msgid "Require a recorded NICS outcome before a transfer can be completed"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:389
+msgid "Transfer retention (days)"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:389
+msgid "Zero keeps everything. Bound-book entries are never pruned by this setting — ATF requires 20 years."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:390
+msgid "Analytics retention (days)"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:394
+msgid "Legal disclaimer"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:404
+msgid "Acknowledged %1$s by %2$s."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:406
+msgid "an administrator"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:413
+msgid "Not yet acknowledged. Run the setup wizard to record it."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:424
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:425
+msgid "The legal disclaimer and the external-services disclosure ship with the plugin, in docs/LEGAL-DISCLAIMER.md and docs/PRIVACY.md."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:433
+msgid "Debug logging"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:433
+msgid "Writes plugin diagnostics to the WordPress debug log. Leave off in production."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:434
+msgid "Delete all plugin data when the plugin is deleted"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:434
+msgid "Off by default. With this on, deleting the plugin permanently removes every transfer, dealer edit, bound-book entry and audit record."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:435
+msgid "ATF download URL override"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:435
+msgid "Only needed if ATF changes their file naming and automatic discovery stops finding it."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:439
+msgid "Setup wizard"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:441
+msgid "Run it again"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:451
+msgid "Reset data"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:452
+msgid "Permanently deletes every transfer, event, token and compliance record this plugin has stored. Your WooCommerce orders are untouched. This cannot be undone."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:455
+msgid "This permanently deletes all FFL transfer and compliance data. Continue?"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:459
+msgid "Type DELETE to confirm"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:462
+msgid "Delete all plugin data"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:509
+msgid "Leave blank to keep the current value."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:545
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:588
+msgid "You do not have permission to change settings."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:613
+msgid "Settings saved."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:701
+msgid "You do not have permission to reset plugin data."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:715
+msgid "Nothing was deleted — the confirmation did not match."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:731
+msgid "All plugin data was deleted and the tables rebuilt."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:278
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin-setup-wizard.php:53
+msgid "Set up FFL Checkout"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:54
+msgid "Setup"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:95 includes/admin/class-admin-setup-wizard.php:410
+msgid "You do not have permission to run setup."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:111
+msgid "Set up FFL Checkout Solutions"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:113
+msgid "Skip setup"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:157
+msgid "Store & FFL details"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:158
+msgid "Flag your products"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:160
+msgid "Choose features"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:178
+msgid "Tell us about your store"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:179
+msgid "These details appear in customer emails, on the dealer confirmation portal, and on the tracking page."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:190
+msgid "Optional. Used on paperwork drafts and in dealer correspondence."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:205
+msgid "Shown for dealers who have not told you their own fee."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:211
+msgid "Before you continue"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:218
+msgid "I have read and understood this."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:222 includes/admin/class-admin-setup-wizard.php:268
+msgid "Continue"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:233
+msgid "Mark which products need a transfer"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:234
+msgid "The dealer selector only appears when the cart holds a product you have flagged as requiring an FFL transfer. Nothing changes for your other products."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:237
+msgid "Open any firearm product for editing."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:238
+msgid "In the Product data panel, on the General tab, tick \"FFL transfer required\"."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:239
+msgid "Set the item type — handgun, rifle, shotgun or other. This drives your state notices, the bound book, the 4473 worksheet and multiple-sale detection, so it is worth setting properly."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:240
+msgid "Optionally add the manufacturer, model and caliber to pre-fill paperwork later."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:256
+msgid "No products are flagged yet. Until at least one is, the dealer selector will not appear at checkout."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:260
+msgid "Open products in a new tab"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:279
+msgid "Activate your licence"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:280
+msgid "Everything you have set up so far works on the free tier and always will. A licence unlocks compliance tooling, carrier integrations, distributors and analytics — and it is what delivers updates and security patches to this site."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:287
+msgid "A %s licence is already active on this site."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:309
+msgid "Find your key at <a href=\"%s\" target=\"_blank\" rel=\"noopener\">app.wpistic.com</a>."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:320
+msgid "Continue on the free tier"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:347
+msgid "Choose your features"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:352
+msgid "These are available on your %s plan. You can change any of this later under Add-ons."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:377
+msgid "Finish setup"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:388
+msgid "You are set up"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:389
+msgid "FFL Checkout Solutions is live. Flag a product as requiring a transfer, then place a test order to see the full flow end to end."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:392
+msgid "Go to the dashboard"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:393
+msgid "Review add-ons"
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:397
+msgid "The user guide and compliance notes ship in the plugin\\'s docs folder. Support is available through your WPistic account."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:509
+msgid "FFL Checkout Solutions is a workflow and record-keeping tool. It does not provide legal advice, does not guarantee compliance with ATF regulations or state and local firearms laws, and does not replace your obligation to independently verify every transfer, NICS result and compliance requirement. All compliance decisions — approving or denying a transfer, filing Form 3310.4, verifying FFL validity — remain the sole responsibility of the licensed dealer using this software. WordPressistic and FFListic are not liable for compliance failures, missed filings, or regulatory penalties arising from use of this plugin. Consult qualified legal counsel for compliance questions specific to your business."
+msgstr ""
+
+#: includes/admin/class-admin-setup-wizard.php:249
+msgid "%d product is already flagged as requiring an FFL transfer."
+msgid_plural "%d products are already flagged as requiring an FFL transfer."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin-transfers.php:49 includes/admin/class-admin-transfers.php:50 includes/admin/class-admin-transfers.php:96 includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:215 includes/modules/ops-tools/class-ops-tools.php:95
+msgid "Transfers"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:97
+msgid "Every firearm transfer this store has handled, and where each one has got to."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:104
+msgid "Reference, customer, serial or product"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:106
+msgid "All statuses"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:118
+msgid "Export CSV"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:127 includes/frontend/class-dealer-portal.php:117 includes/modules/gdpr-tools/class-gdpr-tools.php:101 includes/modules/saved-dealers/class-saved-dealers.php:197 includes/services/class-mailer.php:444
+msgid "Item"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:135
+msgid "No transfers matched."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:176
+msgid "That transfer no longer exists."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:191
+msgid "All transfers"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:195
+msgid "Record"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:211
+msgid "Every change is written to the audit log with your username and the time."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:215 includes/modules/form-4473/class-form-4473.php:103
+msgid "Serial number"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:218
+msgid "Required for the bound book. Record it when the firearm physically arrives."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:222 includes/modules/bound-book/class-bound-book.php:213 includes/modules/form-4473/class-form-4473.php:101
+msgid "Manufacturer"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:226 includes/class-checkout.php:120 includes/modules/bound-book/class-bound-book.php:214 includes/modules/form-4473/class-form-4473.php:102
+msgid "Model"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:230 includes/class-checkout.php:127
+msgid "Caliber / gauge"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:245
+msgid "Tracking number"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:249 includes/modules/form-4473/class-form-4473.php:113
+msgid "NICS transaction number"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:253
+msgid "Staff notes"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:258
+msgid "Save transfer"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:263
+msgid "Customer & dealer"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:283
+msgid "Order"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:290
+msgid "Tracking page"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:293
+msgid "Open the customer view"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:298
+msgid "Dealer confirmation link"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:304
+msgid "An unused link is outstanding, expiring %s."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:310
+msgid "No active confirmation link."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:317
+msgid "Issue a new link and email it"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:318
+msgid "Any previous link stops working immediately."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:324
+msgid "Audit trail"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:335 includes/modules/nics-tracking/class-nics-tracking.php:66 includes/modules/verification-hub/class-verification-hub.php:279
+msgid "Notes"
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:370
+msgid "You do not have permission to edit transfers."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:400
+msgid "Transfer saved."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:422
+msgid "Could not issue a link for that transfer."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:431
+msgid "A new confirmation link was emailed to the dealer."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:432
+msgid "A new link was issued, but no dealer email address is on file — add one on the dealer record."
+msgstr ""
+
+#: includes/admin/class-admin-transfers.php:458
+msgid "You do not have permission to export."
+msgstr ""
+
+#: includes/carriers/class-carrier-easypost.php:183
+msgid "Could not reach the carrier API."
+msgstr ""
+
+#: includes/carriers/class-carrier-easypost.php:194
+msgid "The carrier API returned an error."
+msgstr ""
+
+#: includes/carriers/class-carrier-registry.php:64 includes/modules/form-4473/class-form-4473.php:70 includes/rest/class-portal-controller.php:312 includes/rest/class-transfers-controller.php:155 includes/rest/class-transfers-controller.php:191 includes/rest/class-transfers-controller.php:252
+msgid "Transfer not found."
+msgstr ""
+
+#: includes/carriers/class-carrier-registry.php:72
+msgid "That transfer has no tracking number recorded."
+msgstr ""
+
+#: includes/carriers/class-carrier-registry.php:82
+msgid "No carrier API key is configured, so live status is unavailable. The tracking link on the customer page still works."
+msgstr ""
+
+#: includes/carriers/class-carrier-registry.php:162
+msgid "The carrier reported delivery. The dealer should still confirm receipt and record the serial number."
+msgstr ""
+
+#: includes/carriers/class-carrier-registry.php:180
+msgid "No carrier webhook secret is configured on this site."
+msgstr ""
+
+#: includes/carriers/class-carrier-registry.php:196 includes/payments/class-gateway-credova.php:203 includes/rest/class-webhook-controller.php:88
+msgid "Invalid webhook signature."
+msgstr ""
+
+#: includes/carriers/class-carrier-registry.php:222 includes/payments/class-gateway-credova.php:213 includes/rest/class-webhook-controller.php:98
+msgid "The webhook body was not valid JSON."
+msgstr ""
+
+#: includes/carriers/class-carrier-registry.php:245
+msgid "The payload did not include a tracking number."
+msgstr ""
+
+#: includes/class-activator.php:134
+msgid "FFL Dealer"
+msgstr ""
+
+#: includes/class-addon-manager.php:89
+msgid "Dealer selection at checkout, transfer records, and the order integration. The foundation everything else builds on."
+msgstr ""
+
+#: includes/class-addon-manager.php:99
+msgid "ATF Dealer Sync"
+msgstr ""
+
+#: includes/class-addon-manager.php:100
+msgid "Monthly import of the complete ATF federal firearms licensee list, around 80,000 dealers, in resumable batches."
+msgstr ""
+
+#: includes/class-addon-manager.php:105
+msgid "Sends nothing. Downloads the public ATF licensee file."
+msgstr ""
+
+#: includes/class-addon-manager.php:110
+msgid "ZIP Distance Search"
+msgstr ""
+
+#: includes/class-addon-manager.php:111
+msgid "Distance-ranked dealer search. Looks up a ZIP centroid once, then answers every later search from local data."
+msgstr ""
+
+#: includes/class-addon-manager.php:116
+msgid "Sends the five-digit ZIP code only, to zippopotam.us, once per new ZIP. No customer data."
+msgstr ""
+
+#: includes/class-addon-manager.php:120
+msgid "Dealer Confirmation Portal"
+msgstr ""
+
+#: includes/class-addon-manager.php:121
+msgid "One-click magic links so dealers confirm receipt without an account. Optional second factor and configurable expiry."
+msgstr ""
+
+#: includes/class-addon-manager.php:130
+msgid "Email Notifications"
+msgstr ""
+
+#: includes/class-addon-manager.php:131
+msgid "Branded transactional email to customers, dealers and staff at every status change."
+msgstr ""
+
+#: includes/class-addon-manager.php:140
+msgid "State Compliance Notices"
+msgstr ""
+
+#: includes/class-addon-manager.php:141
+msgid "Editable per-state notices shown at checkout. Informational by default; you decide which, if any, block an order."
+msgstr ""
+
+#: includes/class-addon-manager.php:150
+msgid "Design & Theming"
+msgstr ""
+
+#: includes/class-addon-manager.php:151
+msgid "Colours, logo and custom CSS across the checkout widget, dealer portal, tracking page and emails."
+msgstr ""
+
+#: includes/class-addon-manager.php:160
+msgid "GDPR Tools"
+msgstr ""
+
+#: includes/class-addon-manager.php:161
+msgid "Personal data export and erasure. Anonymises the customer while preserving the transfer record ATF retention requires."
+msgstr ""
+
+#: includes/class-addon-manager.php:169
+msgid "Customer Tracking Page"
+msgstr ""
+
+#: includes/class-addon-manager.php:170
+msgid "A signed public page where a customer follows their transfer, calls their dealer and gets directions."
+msgstr ""
+
+#: includes/class-addon-manager.php:178
+msgid "Saved Dealers"
+msgstr ""
+
+#: includes/class-addon-manager.php:179
+msgid "Remembers the dealers a returning customer has used, as one-tap options above the search."
+msgstr ""
+
+#: includes/class-addon-manager.php:190
+msgid "Live shipment status via EasyPost, and label purchase from the admin — always on an explicit click, never automatically."
+msgstr ""
+
+#: includes/class-addon-manager.php:194
+msgid "Sends the ship-to name, address and package weight to EasyPost when you quote rates or buy a label."
+msgstr ""
+
+#: includes/class-addon-manager.php:199
+msgid "NICS Tracking"
+msgstr ""
+
+#: includes/class-addon-manager.php:200
+msgid "Records background-check outcomes, computes the federal three-business-day window around holidays, and alerts you when it elapses."
+msgstr ""
+
+#: includes/class-addon-manager.php:204
+msgid "Sends nothing on its own. If you connect a background-check provider, that provider posts results to this site."
+msgstr ""
+
+#: includes/class-addon-manager.php:208
+msgid "Bound Book (A&D Ledger)"
+msgstr ""
+
+#: includes/class-addon-manager.php:209
+msgid "Serial-level acquisition and disposition records with an ATF-format CSV export and a 20-year retention rule."
+msgstr ""
+
+#: includes/class-addon-manager.php:217
+msgid "Form 4473 Worksheet"
+msgstr ""
+
+#: includes/class-addon-manager.php:218
+msgid "A printable pre-fill worksheet and signature capture. Clearly marked as a draft — never a substitute for the ATF form."
+msgstr ""
+
+#: includes/class-addon-manager.php:226
+msgid "Flags two or more handgun transfers to one buyer within five business days for Form 3310.4 review. Detection only — it never files anything."
+msgstr ""
+
+#: includes/class-addon-manager.php:235
+msgid "Certified-copy storage with expiry tracking and reminders, plus a manual eZ Check log. Files are kept outside the public media library."
+msgstr ""
+
+#: includes/class-addon-manager.php:243
+msgid "ID & Age Verification"
+msgstr ""
+
+#: includes/class-addon-manager.php:244
+msgid "Collects identity documents for age-restricted orders and routes them to staff. Every decision is made by a person."
+msgstr ""
+
+#: includes/class-addon-manager.php:251
+msgid "Risk Scoring"
+msgstr ""
+
+#: includes/class-addon-manager.php:252
+msgid "A transparent, rules-based risk score for staff review. Advisory only: it never blocks, holds or cancels an order."
+msgstr ""
+
+#: includes/class-addon-manager.php:259
+msgid "Regulatory Watch"
+msgstr ""
+
+#: includes/class-addon-manager.php:260
+msgid "Nightly sweep of the Federal Register for ATF documents matching your terms. Alerts you; changes nothing."
+msgstr ""
+
+#: includes/class-addon-manager.php:264
+msgid "Sends nothing. Reads the public Federal Register API."
+msgstr ""
+
+#: includes/class-addon-manager.php:268
+msgid "Analytics & Reporting"
+msgstr ""
+
+#: includes/class-addon-manager.php:269
+msgid "Transfer volume, status mix, dealer funnel and KPI cards, charted locally with no external service."
+msgstr ""
+
+#: includes/class-addon-manager.php:277
+msgid "Outbound Webhooks"
+msgstr ""
+
+#: includes/class-addon-manager.php:278
+msgid "Post every FFL event to your own endpoints, HMAC-signed, with retries and a delivery log."
+msgstr ""
+
+#: includes/class-addon-manager.php:282
+msgid "Sends transfer event data to the endpoints you configure, and nowhere else."
+msgstr ""
+
+#: includes/class-addon-manager.php:287
+msgid "Operations Toolset"
+msgstr ""
+
+#: includes/class-addon-manager.php:288
+msgid "Bulk dealer fee updates by state, customer lifetime value lookup, and dealer health alerts."
+msgstr ""
+
+#: includes/class-addon-manager.php:296
+msgid "SMS Notifications"
+msgstr ""
+
+#: includes/class-addon-manager.php:297
+msgid "Text customers at key milestones through your own Twilio or Verifyistic account."
+msgstr ""
+
+#: includes/class-addon-manager.php:301
+msgid "Sends the customer phone number and message text to your configured SMS provider."
+msgstr ""
+
+#: includes/class-addon-manager.php:305
+msgid "Admin Two-Factor"
+msgstr ""
+
+#: includes/class-addon-manager.php:306
+msgid "Opt-in TOTP for staff accounts, with single-use backup codes and encrypted secrets."
+msgstr ""
+
+#: includes/class-addon-manager.php:313
+msgid "NMI Payments"
+msgstr ""
+
+#: includes/class-addon-manager.php:314
+msgid "A firearms-tolerant WooCommerce gateway using Collect.js tokenisation, so card data never touches your server."
+msgstr ""
+
+#: includes/class-addon-manager.php:318
+msgid "Card details go from the browser directly to NMI. Your server sees only a token."
+msgstr ""
+
+#: includes/class-addon-manager.php:335
+msgid "Sports South Drop-Ship"
+msgstr ""
+
+#: includes/class-addon-manager.php:336
+msgid "Catalog sync and wholesale ordering through the Sports South SOAP service."
+msgstr ""
+
+#: includes/class-addon-manager.php:345
+msgid "RSR Group Drop-Ship"
+msgstr ""
+
+#: includes/class-addon-manager.php:346
+msgid "Inventory download and fixed-format order upload over RSR file exchange, with acknowledgement polling."
+msgstr ""
+
+#: includes/class-addon-manager.php:355
+msgid "Bill Hicks & Co. Drop-Ship"
+msgstr ""
+
+#: includes/class-addon-manager.php:356
+msgid "Catalog sync, order upload and acknowledgement reading over Bill Hicks file exchange."
+msgstr ""
+
+#: includes/class-addon-manager.php:365
+msgid "Chattanooga Shooting Supplies"
+msgstr ""
+
+#: includes/class-addon-manager.php:366
+msgid "Catalog sync and ordering through the Chattanooga REST API, including the FFL-on-file precondition check."
+msgstr ""
+
+#: includes/class-addon-manager.php:375
+msgid "GunBroker Sync"
+msgstr ""
+
+#: includes/class-addon-manager.php:376
+msgid "List WooCommerce products on GunBroker and import sold orders into the same transfer pipeline."
+msgstr ""
+
+#: includes/class-addon-manager.php:380
+msgid "Sends product catalog data to GunBroker and receives order data back."
+msgstr ""
+
+#: includes/class-addon-manager.php:384
+msgid "Credova Financing"
+msgstr ""
+
+#: includes/class-addon-manager.php:385
+msgid "Firearms-friendly consumer financing at checkout. The order is held until the lender confirms approval."
+msgstr ""
+
+#: includes/class-addon-manager.php:389
+msgid "Sends the order total and the customer name and email to Credova to start a financing application."
+msgstr ""
+
+#: includes/class-addon-manager.php:456
+msgid "Unknown module."
+msgstr ""
+
+#: includes/class-addon-manager.php:465
+msgid "This module is required and cannot be switched off."
+msgstr ""
+
+#: includes/class-addon-manager.php:474
+msgid "This module requires the %s plan."
+msgstr ""
+
+#: includes/class-addon-manager.php:558
+msgid "Core"
+msgstr ""
+
+#: includes/class-addon-manager.php:560 includes/modules/ops-tools/class-ops-tools.php:35 includes/modules/ops-tools/class-ops-tools.php:36 includes/modules/ops-tools/class-ops-tools.php:55
+msgid "Operations"
+msgstr ""
+
+#: includes/class-addon-manager.php:561
+msgid "Customer experience"
+msgstr ""
+
+#: includes/class-addon-manager.php:564
+msgid "Marketplaces"
+msgstr ""
+
+#: includes/class-addon-manager.php:566 includes/modules/analytics/class-analytics.php:37 includes/modules/analytics/class-analytics.php:38 includes/modules/analytics/class-analytics.php:84
+msgid "Analytics"
+msgstr ""
+
+#: includes/class-addon-manager.php:567
+msgid "Notifications"
+msgstr ""
+
+#: includes/class-addon-manager.php:568
+msgid "Security"
+msgstr ""
+
+#: includes/class-addon-manager.php:569
+msgid "Design"
+msgstr ""
+
+#: includes/class-addon-manager.php:580
+msgid "You do not have permission to manage add-ons."
+msgstr ""
+
+#: includes/class-checkout.php:93 includes/class-checkout.php:213
+msgid "FFL transfer required"
+msgstr ""
+
+#: includes/class-checkout.php:94
+msgid "Buyers must select a licensed FFL dealer at checkout for this product."
+msgstr ""
+
+#: includes/class-checkout.php:101
+msgid "Item type"
+msgstr ""
+
+#: includes/class-checkout.php:102
+msgid "Drives state compliance rules, the 4473 worksheet, the bound book, and federal multiple-sale detection. Leave unset only for non-firearms."
+msgstr ""
+
+#: includes/class-checkout.php:104
+msgid "— Not a firearm —"
+msgstr ""
+
+#: includes/class-checkout.php:111
+msgid "Manufacturer / importer"
+msgstr ""
+
+#: includes/class-checkout.php:112
+msgid "Pre-fills the 4473 worksheet and the bound book entry."
+msgstr ""
+
+#: includes/class-checkout.php:134
+msgid "Federal excise tax applies"
+msgstr ""
+
+#: includes/class-checkout.php:135
+msgid "Only enable this if you are the manufacturer or importer of record. Under 26 U.S.C. § 4181 the Pittman-Robertson excise tax is owed by manufacturers and importers, not by resellers. This is not tax advice — confirm with your accountant."
+msgstr ""
+
+#: includes/class-checkout.php:143
+msgid "Excise tax rate"
+msgstr ""
+
+#: includes/class-checkout.php:145
+msgid "10% — pistols and revolvers"
+msgstr ""
+
+#: includes/class-checkout.php:146
+msgid "11% — other firearms and ammunition"
+msgstr ""
+
+#: includes/class-checkout.php:154
+msgid "Age-restricted item"
+msgstr ""
+
+#: includes/class-checkout.php:155
+msgid "For items that ship directly to the buyer but are still age-restricted — ammunition, magazines, certain accessories. Independent of the FFL transfer flag above."
+msgstr ""
+
+#: includes/class-checkout.php:249
+msgid "Your submission was flagged by our spam filter. Please reload the page and try again."
+msgstr ""
+
+#: includes/class-checkout.php:264
+msgid "Please select an FFL dealer before placing your order."
+msgstr ""
+
+#: includes/class-checkout.php:272
+msgid "The selected dealer is no longer available. Please search again and choose another."
+msgstr ""
+
+#: includes/class-checkout.php:498
+msgid "Transfer created automatically from order #%d."
+msgstr ""
+
+#: includes/class-checkout.php:579
+msgid "The WooCommerce order was cancelled or refunded."
+msgstr ""
+
+#: includes/class-checkout.php:606
+msgid "FFL Transfer"
+msgstr ""
+
+#: includes/class-checkout.php:607
+msgid "Dealer:"
+msgstr ""
+
+#: includes/class-checkout.php:643
+msgid "FFL dealer selected"
+msgstr ""
+
+#: includes/class-checkout.php:646
+msgid "Your firearm will transfer through:"
+msgstr ""
+
+#: includes/class-checkout.php:649
+msgid "We will email you when your dealer confirms the firearm has arrived and is ready for pickup."
+msgstr ""
+
+#: includes/class-checkout.php:656
+msgid "Track transfer"
+msgstr ""
+
+#: includes/class-installer.php:658
+msgid "Federal law requires this transfer to complete through a licensed FFL dealer, including a NICS background check. Confirm any additional state and local requirements with your dealer."
+msgstr ""
+
+#: includes/class-module-loader.php:69
+msgid "Switched off"
+msgstr ""
+
+#: includes/class-module-loader.php:72
+msgid "Requires the %s plan"
+msgstr ""
+
+#: includes/class-module-loader.php:85
+msgid "No separate bootstrap — handled by core services"
+msgstr ""
+
+#: includes/class-plugin.php:145
+msgid "FFL Checkout Solutions could not start."
+msgstr ""
+
+#: includes/class-plugin.php:163
+msgid "WooCommerce is required and is not active."
+msgstr ""
+
+#: includes/class-plugin.php:166
+msgid "Install and activate <a href=\"%s\">WooCommerce</a>, then activate FFL Checkout Solutions again."
+msgstr ""
+
+#: includes/class-plugin.php:178
+msgid "WooCommerce %1$s or higher is required. This site is running WooCommerce %2$s."
+msgstr ""
+
+#: includes/class-plugin.php:184
+msgid "Update WooCommerce from the <a href=\"%s\">Plugins screen</a>, then activate FFL Checkout Solutions again."
+msgstr ""
+
+#: includes/class-plugin.php:230
+msgid "Every minute (FFL Checkout)"
+msgstr ""
+
+#: includes/class-plugin.php:236
+msgid "Every 5 minutes (FFL Checkout)"
+msgstr ""
+
+#: includes/class-plugin.php:242
+msgid "Monthly (FFL Checkout)"
+msgstr ""
+
+#: includes/distributors/class-distributor-bill-hicks.php:115 includes/distributors/class-distributor-chattanooga.php:102 includes/distributors/class-distributor-lipseys.php:144 includes/distributors/class-distributor-rsr.php:105 includes/distributors/class-distributor-sports-south.php:90
+msgid "A receiving dealer FFL number is required before an order can be placed."
+msgstr ""
+
+#: includes/distributors/class-distributor-chattanooga.php:120
+msgid "Chattanooga does not have FFL %s on file. Send them a copy of the licence first — this plugin cannot do that for you."
+msgstr ""
+
+#: includes/distributors/class-distributor-ftps-base.php:33
+msgid "This server does not have PHP FTP with SSL support, which this distributor requires."
+msgstr ""
+
+#: includes/distributors/class-distributor-ftps-base.php:49
+msgid "Could not open a secure FTPS connection to the distributor."
+msgstr ""
+
+#: includes/distributors/class-distributor-ftps-base.php:61
+msgid "The distributor rejected those FTPS credentials."
+msgstr ""
+
+#: includes/distributors/class-distributor-ftps-base.php:86
+msgid "Could not create a temporary file for the download."
+msgstr ""
+
+#: includes/distributors/class-distributor-ftps-base.php:98
+msgid "Could not download %s from the distributor."
+msgstr ""
+
+#: includes/distributors/class-distributor-ftps-base.php:122
+msgid "Could not create a temporary file for the upload."
+msgstr ""
+
+#: includes/distributors/class-distributor-ftps-base.php:137
+msgid "The distributor rejected the order file upload."
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:43
+msgid "REST API over HTTPS (api.lipseys.com)"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:45
+msgid "Dealer account email"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:46
+msgid "Dealer account password"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:48
+msgid "Targets the documented Lipsey\\'s dealer API. Authentication and catalog endpoints follow their published integration guide; the exact order-submission response shape is handled defensively because it was not verifiable without a live dealer account."
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:54
+msgid "SOAP / ASMX web service"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:56 includes/distributors/class-distributor-registry.php:70 includes/distributors/class-distributor-registry.php:83
+msgid "Username"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:57 includes/distributors/class-distributor-registry.php:71 includes/distributors/class-distributor-registry.php:84
+msgid "Password"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:58
+msgid "Customer number"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:59
+msgid "Source ID"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:61
+msgid "Uses the DailyItemUpdate catalog call and the AddHeader → AddDetail → Submit order sequence described in the Sports South integration documentation. Field-level ordering of the order calls is inferred from that documentation and should be verified against a test account before first live use."
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:67 includes/distributors/class-distributor-registry.php:80
+msgid "FTPS file exchange"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:69 includes/distributors/class-distributor-registry.php:82
+msgid "FTPS host"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:72 includes/distributors/class-distributor-registry.php:85
+msgid "Account number"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:74
+msgid "RSR exchanges fixed-width inventory and order files over FTPS, with asynchronous ECONF/EERR acknowledgement files. The field positions used here follow RSR\\'s published layout; because the layout is versioned by RSR and not discoverable at runtime, confirm it against your current dealer packet before enabling live ordering."
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:87
+msgid "Catalog download, order upload and acknowledgement reading over the dealer FTPS account. Directory names and file naming follow the Bill Hicks dealer packet and vary per account, so they are configurable rather than hardcoded."
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:93
+msgid "REST API over HTTPS (api.chattanoogashooting.com)"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:95
+msgid "SID"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:96
+msgid "API token"
+msgstr ""
+
+#: includes/distributors/class-distributor-registry.php:98
+msgid "Targets the documented Chattanooga dealer API, including its FFL-on-file precondition: an order for a firearm is refused unless the receiving dealer\\'s licence is already on file with Chattanooga, which this plugin cannot verify on their behalf."
+msgstr ""
+
+#: includes/distributors/class-distributor-sports-south.php:118
+msgid "Sports South did not return an order number for the header call."
+msgstr ""
+
+#: includes/distributors/class-distributor-sports-south.php:192
+msgid "Could not reach Sports South."
+msgstr ""
+
+#: includes/distributors/class-distributor-sports-south.php:205
+msgid "Sports South returned HTTP %d."
+msgstr ""
+
+#: includes/distributors/class-distributor-support.php:83
+msgid "This distributor is missing credentials. Add them under FFL Checkout → Distributors."
+msgstr ""
+
+#: includes/distributors/class-distributor-support.php:278
+msgid "Wholesale order submitted to %1$s for item %2$s."
+msgstr ""
+
+#: includes/distributors/class-distributor-support.php:321
+msgid "This distributor does not send callbacks. Order status is polled instead."
+msgstr ""
+
+#: includes/distributors/class-distributor-support.php:360
+msgid "Could not reach %s."
+msgstr ""
+
+#: includes/distributors/class-distributor-support.php:375
+msgid "%1$s returned HTTP %2$d."
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:87
+msgid "Select your FFL dealer"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:90
+msgid "This order contains items that must transfer through a licensed FFL dealer. Search by ZIP code, business name, licence number or phone."
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:100
+msgid "Dealer search method"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:101 includes/frontend/class-checkout-widget.php:110
+msgid "ZIP code"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:102 includes/modules/form-4473/class-form-4473.php:96 includes/modules/gdpr-tools/class-gdpr-tools.php:105
+msgid "Name"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:103
+msgid "Licence #"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:111
+msgid "e.g. 85001"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:114
+msgid "Within"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:121
+msgid "%d miles"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:134
+msgid "e.g. Cedar Ridge Firearms"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:139
+msgid "Any"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:149
+msgid "FFL licence number (full or partial)"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:150
+msgid "e.g. 9-86-021-01-2A"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:156
+msgid "Dealer phone number"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:157
+msgid "e.g. 480-555-0100"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:162
+msgid "Search dealers"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:175
+msgid "Selected dealer"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:178
+msgid "Change dealer"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:183 includes/frontend/class-dealer-onboard.php:141 includes/frontend/class-dealer-portal.php:153
+msgid "Leave this field blank"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:251
+msgid "Searching dealers…"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:252
+msgid "No dealers matched. Try a wider radius, a different ZIP, or search by name."
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:253
+msgid "We could not search for dealers just now. Please try again."
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:254
+msgid "Too many searches. Please wait a moment and try again."
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:255
+msgid "Select"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:256
+msgid "Selected"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:259
+msgid "Contact dealer for fee"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:260
+msgid "miles away"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:261
+msgid "Please enter a valid 5-digit ZIP code."
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:262
+msgid "Enter a ZIP code, name, licence number or phone to search."
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:263
+msgid "dealer found"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:264
+msgid "dealers found"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:265
+msgid "Address on file — distance unavailable"
+msgstr ""
+
+#: includes/frontend/class-checkout-widget.php:266
+msgid "Your saved dealers"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:70
+msgid "Apply to become a recommended dealer"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:91
+msgid "Tell us about your business and we will be in touch. We verify every licence before adding a dealer to our list."
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:97
+msgid "Thank you — your application has been received. We will review it and contact you."
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:101
+msgid "We could not accept that submission. Please check the required fields and try again."
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:116
+msgid "FFL licence number"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:131
+msgid "Your transfer fee"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:136
+msgid "Anything else we should know"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:146
+msgid "Submit application"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:204
+msgid "Dealer application received from %1$s (licence %2$s)."
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:217
+msgid "A dealer has applied to be listed at checkout."
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:219
+msgid "Business:"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:220
+msgid "Licence:"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:221
+msgid "Email:"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:222
+msgid "Phone:"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:223
+msgid "Transfer fee:"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:225 includes/rest/class-portal-controller.php:291
+msgid "Notes:"
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:230
+msgid "This licence matches an existing dealer record — <a href=\"%s\">review it</a>."
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:234
+msgid "This licence number does not match any dealer in the synced ATF directory. Verify it before adding them."
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:237
+msgid "No dealer record was created or changed by this application."
+msgstr ""
+
+#: includes/frontend/class-dealer-onboard.php:242
+msgid "Dealer application: %s"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:59 includes/frontend/class-dealer-portal.php:74
+msgid "Confirmation link"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:70
+msgid "This shipment is no longer on file"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:71
+msgid "Please contact the store that sent you this link."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:83 includes/frontend/class-dealer-portal.php:103
+msgid "Confirm firearm receipt"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:108
+msgid "%s has shipped a firearm to your premises for transfer to their customer. Please confirm what happened."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:119
+msgid "Make / model"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:121
+msgid "Your business"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:133
+msgid "Last 4 characters of your FFL licence number"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:135
+msgid "This confirms the link reached the right dealer."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:139
+msgid "Verification code"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:142
+msgid "Email me a code"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:148
+msgid "Notes (optional)"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:149
+msgid "Anything the store should know"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:159
+msgid "I received this firearm"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:162
+msgid "Report a problem"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:165
+msgid "This is not my shipment"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:173
+msgid "This form records what you tell us. It does not perform a background check, complete a Form 4473, or make any compliance determination — those remain entirely your responsibility as the licensed dealer."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:193
+msgid "Already confirmed"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:196
+msgid "This shipment was already confirmed on %s. No further action is needed."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:204
+msgid "This link cannot be used"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:205
+msgid "Please contact the store that sent it."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:273
+msgid "Submitting…"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:274
+msgid "Something went wrong. Please try again, or contact the store."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:275
+msgid "We emailed you a code. It expires in 10 minutes."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:276
+msgid "We could not send a code. Please contact the store."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:299
+msgid "Too many code requests. Please wait a moment."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:316 includes/rest/class-dealers-controller.php:196 includes/rest/class-dealers-controller.php:283
+msgid "Dealer not found."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:323
+msgid "No email address is on file for this dealer. Please contact the store."
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:334
+msgid "Your confirmation code"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:335
+msgid "Your verification code is:"
+msgstr ""
+
+#: includes/frontend/class-dealer-portal.php:337
+msgid "It expires in 10 minutes."
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:43
+msgid "Order confirmed"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:48
+msgid "Shipped to dealer"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:53
+msgid "Received by dealer"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:58 includes/modules/nics-tracking/class-nics-tracking.php:42
+msgid "Background check"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:63
+msgid "Transfer complete"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:100
+msgid "This tracking link is not valid"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:101
+msgid "Check the link in your confirmation email, or contact us for help."
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:111
+msgid "Transfer not found"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:112
+msgid "This transfer is no longer on file. Please contact us."
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:149
+msgid "This transfer has been cancelled. Please contact us if you did not expect this."
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:153
+msgid "Your dealer reported a problem with this shipment. We are looking into it and will be in touch."
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:182
+msgid "Shipment"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:189
+msgid "Track with carrier"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:197
+msgid "Your dealer"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:210
+msgid "Directions"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:214
+msgid "Add pickup to calendar"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:220
+msgid "Call ahead to confirm their hours, and bring valid government-issued photo identification. Your dealer will complete the background check and paperwork in person."
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:227
+msgid "Your licensed dealer is responsible for all background checks, paperwork and the final transfer decision. This page reports progress only."
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:300
+msgid "Firearm pickup: %s"
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:307
+msgid "Transfer %1$s from %2$s. Bring valid government-issued photo identification. Call the dealer first to confirm their hours."
+msgstr ""
+
+#: includes/frontend/class-tracking-page.php:368
+msgid "Track your transfer"
+msgstr ""
+
+#: includes/helpers/functions.php:97
+msgid "Dealer Selected"
+msgstr ""
+
+#: includes/helpers/functions.php:98
+msgid "Payment Confirmed"
+msgstr ""
+
+#: includes/helpers/functions.php:99
+msgid "Shipped to Dealer"
+msgstr ""
+
+#: includes/helpers/functions.php:100
+msgid "Received by Dealer"
+msgstr ""
+
+#: includes/helpers/functions.php:101
+msgid "NICS Pending"
+msgstr ""
+
+#: includes/helpers/functions.php:102
+msgid "NICS Delayed"
+msgstr ""
+
+#: includes/helpers/functions.php:103
+msgid "NICS Approved"
+msgstr ""
+
+#: includes/helpers/functions.php:104
+msgid "NICS Denied"
+msgstr ""
+
+#: includes/helpers/functions.php:105
+msgid "Transferred"
+msgstr ""
+
+#: includes/helpers/functions.php:106 includes/services/class-nics-tracker.php:37
+msgid "Cancelled"
+msgstr ""
+
+#: includes/helpers/functions.php:107
+msgid "Issue Reported"
+msgstr ""
+
+#: includes/helpers/functions.php:135
+msgid "Handgun (pistol/revolver)"
+msgstr ""
+
+#: includes/helpers/functions.php:136
+msgid "Rifle"
+msgstr ""
+
+#: includes/helpers/functions.php:137
+msgid "Shotgun"
+msgstr ""
+
+#: includes/helpers/functions.php:138
+msgid "Other firearm"
+msgstr ""
+
+#: includes/license/class-entitlement.php:106
+msgid "Free"
+msgstr ""
+
+#: includes/license/class-entitlement.php:107
+msgid "Starter"
+msgstr ""
+
+#: includes/license/class-entitlement.php:108
+msgid "Pro"
+msgstr ""
+
+#: includes/license/class-entitlement.php:110
+msgid "Enterprise"
+msgstr ""
+
+#: includes/license/class-license-client.php:215
+msgid "Enter a licence key."
+msgstr ""
+
+#: includes/license/class-license-client.php:222
+msgid "Too many activation attempts. Please wait an hour and try again."
+msgstr ""
+
+#: includes/license/class-license-client.php:248
+msgid "That licence key could not be activated."
+msgstr ""
+
+#: includes/license/class-license-client.php:384
+msgid "Could not reach the licence server. Your existing licence continues to work."
+msgstr ""
+
+#: includes/license/class-license-client.php:396
+msgid "The licence server returned an unexpected response (HTTP %d)."
+msgstr ""
+
+#: includes/license/class-updater.php:153
+msgid "Complete FFL dealer management, WooCommerce checkout and transfer lifecycle tracking."
+msgstr ""
+
+#: includes/license/class-updater.php:298
+msgid "Too many checks. Please wait a while before trying again."
+msgstr ""
+
+#: includes/license/class-updater.php:311
+msgid "Could not reach the update server. Your site is unaffected and will keep running the installed version."
+msgstr ""
+
+#: includes/modules/admin-2fa/class-admin-2fa.php:238
+msgid "FFL Checkout two-factor authentication"
+msgstr ""
+
+#: includes/modules/admin-2fa/class-admin-2fa.php:245
+msgid "Two-factor authentication is enabled for this account."
+msgstr ""
+
+#: includes/modules/admin-2fa/class-admin-2fa.php:248
+msgid "Turn it off"
+msgstr ""
+
+#: includes/modules/admin-2fa/class-admin-2fa.php:253
+msgid "Set up an authenticator app"
+msgstr ""
+
+#: includes/modules/admin-2fa/class-admin-2fa.php:256
+msgid "Saving with this ticked generates a secret and eight single-use backup codes, shown once."
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:69 includes/rest/class-analytics-controller.php:60
+msgid "You do not have permission to view analytics."
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:85
+msgid "Computed from this site\\'s own data. Nothing is sent anywhere."
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:89
+msgid "Transfers, 30 days"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:93
+msgid "Open"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:101
+msgid "Median days to pickup"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:107
+msgid "Transfer volume, last 30 days"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:122
+msgid "Dealer confirmation funnel, 30 days"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:127
+msgid "Confirmation links issued"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:128
+msgid "Emails sent"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:129
+msgid "Portal opened"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:130
+msgid "Receipt confirmed"
+msgstr ""
+
+#: includes/modules/analytics/class-analytics.php:131
+msgid "Problems reported"
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:105
+msgid "Acquisition recorded with no serial number — add it before this entry is complete."
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:106
+msgid "Acquisition recorded in the bound book."
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:152
+msgid "Disposition recorded in the bound book."
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:186
+msgid "Acquisition and disposition entries, created automatically as transfers progress. Entries are kept for 20 years and are never removed by the GDPR erasure tool."
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:206
+msgid "Export bound book CSV"
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:212
+msgid "Acquired"
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:215 includes/modules/form-4473/class-form-4473.php:104
+msgid "Type"
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:216
+msgid "Serial"
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:217
+msgid "Disposed"
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:223
+msgid "No entries yet."
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:255
+msgid "You do not have permission to export the bound book."
+msgstr ""
+
+#: includes/modules/bound-book/class-bound-book.php:195
+msgid "%d entry has no serial number recorded."
+msgid_plural "%d entries have no serial number recorded."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/modules/carrier-tracking/class-carrier-tracking.php:63
+msgid "A tracking number was recorded."
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:62
+msgid "You do not have permission to view this worksheet."
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:95
+msgid "Section A — Transferee"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:100
+msgid "Section B — Firearm"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:105
+msgid "Caliber or gauge"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:107
+msgid "Section C — Transferring dealer"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:112
+msgid "Section D — Background check"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:114 includes/modules/nics-tracking/class-nics-tracking.php:50
+msgid "Outcome"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:115
+msgid "Check date"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:116
+msgid "Delay expires"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:139
+msgid "4473 worksheet"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:160
+msgid "Print"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:161
+msgid "Download PDF"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:164 includes/modules/form-4473/class-form-4473.php:199
+msgid "Firearms transaction worksheet"
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:180
+msgid "This worksheet exists to save re-keying information you already hold. It is not ATF Form 4473, is not a substitute for it, and cannot be submitted to anyone. The transfer must be completed on the current official form, in person, at the licensed premises. Every eligibility determination remains the licensee\\'s."
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:231
+msgid "This worksheet is not ATF Form 4473 and cannot be submitted. The transfer must be completed on the current official form, in person, at the licensed premises. Every eligibility determination remains the licensee\\'s."
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:251
+msgid "You do not have permission to capture signatures."
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:266
+msgid "That signature could not be read."
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:292
+msgid "A %s signature was captured on the worksheet. Earlier captures are retained."
+msgstr ""
+
+#: includes/modules/form-4473/class-form-4473.php:303
+msgid "Signature captured."
+msgstr ""
+
+#: includes/modules/fraud-scoring/class-fraud-scoring.php:96
+msgid "%d transfers from this buyer in the last 24 hours."
+msgstr ""
+
+#: includes/modules/fraud-scoring/class-fraud-scoring.php:117
+msgid "%d different buyers from the same IP address in the last week."
+msgstr ""
+
+#: includes/modules/fraud-scoring/class-fraud-scoring.php:126
+msgid "The buyer used a disposable email domain."
+msgstr ""
+
+#: includes/modules/fraud-scoring/class-fraud-scoring.php:141
+msgid "The buyer and dealer are in different states. This is normal for online sales."
+msgstr ""
+
+#: includes/modules/fraud-scoring/class-fraud-scoring.php:161
+msgid "This buyer has used %d different dealers in the last 30 days."
+msgstr ""
+
+#: includes/modules/fraud-scoring/class-fraud-scoring.php:184
+msgid "%d handgun transfers for this buyer within five days."
+msgstr ""
+
+#: includes/modules/fraud-scoring/class-fraud-scoring.php:222
+msgid "Risk review suggested: %1$s (%2$d points). Advisory only — no action was taken."
+msgstr ""
+
+#: includes/modules/gdpr-tools/class-gdpr-tools.php:42 includes/modules/gdpr-tools/class-gdpr-tools.php:57 includes/modules/gdpr-tools/class-gdpr-tools.php:89
+msgid "FFL Transfers"
+msgstr ""
+
+#: includes/modules/gdpr-tools/class-gdpr-tools.php:157
+msgid "[removed]"
+msgstr ""
+
+#: includes/modules/gdpr-tools/class-gdpr-tools.php:174
+msgid "Customer identity fields were anonymised in response to a privacy request. The transfer and bound-book records were retained under ATF record-keeping requirements."
+msgstr ""
+
+#: includes/modules/gdpr-tools/class-gdpr-tools.php:182
+msgid "Customer name, email, phone and IP were removed from the FFL transfer records."
+msgstr ""
+
+#: includes/modules/gdpr-tools/class-gdpr-tools.php:186
+msgid "The transfer records themselves, and any bound book (acquisition and disposition) entries, were retained. Federal law requires a licensee to keep these for 20 years, and that obligation is not overridden by an erasure request."
+msgstr ""
+
+#: includes/modules/gunbroker-sync/class-gunbroker-sync.php:148
+msgid "GunBroker credentials are not configured."
+msgstr ""
+
+#: includes/modules/gunbroker-sync/class-gunbroker-sync.php:174
+msgid "GunBroker did not return an access token."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:56
+msgid "This submission could not be verified."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:60
+msgid "Too many uploads. Please wait and try again."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:68
+msgid "That transfer could not be found."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:72
+msgid "No document was uploaded."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:102
+msgid "An identity document was submitted and is awaiting staff review. No automatic decision was made."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:107
+msgid "An identity document is awaiting review"
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:110
+msgid "A customer submitted an identity document for transfer %s."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:129
+msgid "That file is too large. The maximum is 8 MB."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:144
+msgid "Only JPEG, PNG and PDF files are accepted."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:163
+msgid "The upload could not be saved."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:177
+msgid "You do not have permission to review identity documents."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:189
+msgid "Unknown decision."
+msgstr ""
+
+#: includes/modules/id-verification/class-id-verification.php:210
+msgid "Decision recorded."
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:173
+msgid "no serial recorded"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:180
+msgid "Action today: multiple handgun transfers may require Form 3310.4"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:183
+msgid "%d handgun transfers to the same buyer completed within five business days."
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:186
+msgid "Buyer:"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:188
+msgid "Under 27 CFR 478.126a a report is due by the close of business on the day of the second transfer. Filing is your responsibility — this plugin has not contacted ATF and will not."
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:190
+msgid "Open the review queue"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:207
+msgid "Detected patterns that may require ATF Form 3310.4. This plugin never files a report — mark an entry filed once you have submitted it yourself."
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:213
+msgid "Detected"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:214
+msgid "Buyer"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:216
+msgid "Window"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:223
+msgid "Nothing detected."
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:234
+msgid "Filed"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:236
+msgid "Needs review"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:245
+msgid "Mark filed"
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:292
+msgid "Staff recorded that Form 3310.4 was filed for detection #%d."
+msgstr ""
+
+#: includes/modules/multi-sale-watcher/class-multi-sale-watcher.php:303
+msgid "Marked as filed."
+msgstr ""
+
+#: includes/modules/nics-tracking/class-nics-tracking.php:61
+msgid "Transaction number (NTN)"
+msgstr ""
+
+#: includes/modules/nics-tracking/class-nics-tracking.php:75
+msgid "The three-business-day window for this delay ends %s. Proceeding after that date is the dealer\\'s decision alone."
+msgstr ""
+
+#: includes/modules/nics-tracking/class-nics-tracking.php:82
+msgid "Record outcome"
+msgstr ""
+
+#: includes/modules/nics-tracking/class-nics-tracking.php:93
+msgid "You do not have permission to record background-check results."
+msgstr ""
+
+#: includes/modules/nics-tracking/class-nics-tracking.php:120
+msgid "Background-check outcome recorded."
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:59
+msgid "Bulk transfer fee by state"
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:60
+msgid "Sets the same fee on every dealer in a state. Useful after negotiating a regional rate."
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:80
+msgid "Apply"
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:85
+msgid "Dealer health"
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:86
+msgid "Dealers with an unusually high rate of reported problems, across at least five transfers."
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:89
+msgid "No dealers are flagged."
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:96
+msgid "Issues"
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:97
+msgid "Rate"
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:138
+msgid "%1$s — %2$d problems across %3$d transfers"
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:147
+msgid "Dealers with a high rate of reported problems"
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:148
+msgid "These dealers have a higher-than-usual rate of reported problems. Worth a phone call."
+msgstr ""
+
+#: includes/modules/ops-tools/class-ops-tools.php:176
+msgid "Updated %d dealer."
+msgid_plural "Updated %d dealers."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/modules/regulatory-watch/class-regulatory-watch.php:128
+msgid "New Federal Register documents matching your firearms terms"
+msgstr ""
+
+#: includes/modules/regulatory-watch/class-regulatory-watch.php:129
+msgid "These were published in the last week and match the terms you are watching."
+msgstr ""
+
+#: includes/modules/regulatory-watch/class-regulatory-watch.php:131
+msgid "This is an alert only. No setting, state rule or policy in this plugin has been changed."
+msgstr ""
+
+#: includes/modules/saved-dealers/class-saved-dealers.php:78
+msgid "My FFL Transfers"
+msgstr ""
+
+#: includes/modules/saved-dealers/class-saved-dealers.php:191
+msgid "You have no FFL transfers yet."
+msgstr ""
+
+#: includes/modules/saved-dealers/class-saved-dealers.php:214
+msgid "Track"
+msgstr ""
+
+#: includes/modules/sms-notifications/class-sms-notifications.php:88
+msgid "%1$s: your firearm (%2$s) has shipped to your FFL dealer."
+msgstr ""
+
+#: includes/modules/sms-notifications/class-sms-notifications.php:94
+msgid "%1$s: your dealer has received %2$s. Contact them to arrange pickup, and bring photo ID."
+msgstr ""
+
+#: includes/modules/sms-notifications/class-sms-notifications.php:100
+msgid "%1$s: your background check for %2$s is delayed. Your dealer will be in touch."
+msgstr ""
+
+#: includes/modules/sms-notifications/class-sms-notifications.php:106
+msgid "%1$s: your background check for %2$s cleared. Contact your dealer to complete the transfer."
+msgstr ""
+
+#: includes/modules/sms-notifications/class-sms-notifications.php:112
+msgid "%1$s: transfer %2$s is complete. Thank you."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:75
+msgid "A dealer licence copy on file has expired"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:78
+msgid "A dealer licence copy expires in %d days"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:84
+msgid "The certified copy on file for %1$s expires on %2$s."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:85
+msgid "a dealer"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:89
+msgid "Request an updated copy before shipping to them again."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:122
+msgid "You do not have permission to log verifications."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:154
+msgid "Verification logged."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:178
+msgid "No dealer record."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:189
+msgid "Checked against this site\\'s most recent ATF import, not against ATF directly. ATF publishes no verification API — confirm through eZ Check and log the result."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:209
+msgid "Certified licence copies and their expiry dates, plus your manual eZ Check log. ATF publishes no verification API, so eZ Check results are recorded by hand — that record is what an audit asks for."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:214
+msgid "Documents on file"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:217
+msgid "No certified copies on file yet."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:237
+msgid "Expired"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:252
+msgid "Uploaded copies are stored outside the media library, in %s, and served only through a capability check."
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:260
+msgid "eZ Check log"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:267
+msgid "Dealer ID"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:273
+msgid "Valid"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:274
+msgid "Invalid"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:275
+msgid "Not found"
+msgstr ""
+
+#: includes/modules/verification-hub/class-verification-hub.php:283
+msgid "Log this check"
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:44
+msgid "Credova financing (FFL Checkout)"
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:45
+msgid "Consumer financing for firearms purchases. Orders are held until the lender approves."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:52 includes/payments/class-gateway-credova.php:73
+msgid "Financing"
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:53 includes/payments/class-gateway-credova.php:78
+msgid "Apply for financing. Your order is confirmed once the lender approves."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:65 includes/payments/class-gateway-nmi.php:59
+msgid "Enable"
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:67
+msgid "Offer Credova financing"
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:71 includes/payments/class-gateway-nmi.php:65
+msgid "Title"
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:76 includes/payments/class-gateway-nmi.php:70
+msgid "Description"
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:108
+msgid "Financing is unavailable right now. Please choose another payment method."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:136
+msgid "We could not reach the financing provider. Please try again."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:147
+msgid "The financing provider did not return an application link. Please choose another payment method."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:155
+msgid "Awaiting a financing decision from Credova. Do not ship until it is approved."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:192
+msgid "Financing is not configured on this site."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:244
+msgid "Credova approved the financing application."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:255
+msgid "Credova reported the application as %s."
+msgstr ""
+
+#: includes/payments/class-gateway-credova.php:345
+msgid "Credova did not return an access token."
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:37
+msgid "NMI (FFL Checkout)"
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:38
+msgid "Card payments through NMI, using Collect.js so card data never reaches your server."
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:45 includes/payments/class-gateway-nmi.php:67
+msgid "Credit card"
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:61
+msgid "Accept card payments through NMI"
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:79
+msgid "Keys are stored encrypted under <a href=\"%s\">FFL Checkout → Settings → Payments</a>."
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:136
+msgid "Card details go directly to our payment processor and are never stored on this site."
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:157
+msgid "Your card details could not be read. Please re-enter them."
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:186
+msgid "NMI was unreachable. The payment was not taken."
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:187
+msgid "We could not reach the payment processor. Please try again."
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:197
+msgid "The payment was declined."
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:202
+msgid "NMI declined the payment: %s"
+msgstr ""
+
+#: includes/payments/class-gateway-nmi.php:217
+msgid "NMI approved the payment. Transaction %s."
+msgstr ""
+
+#: includes/rest/class-analytics-controller.php:68
+msgid "Analytics requires an active Pro licence."
+msgstr ""
+
+#: includes/rest/class-carrier-controller.php:60
+msgid "A transfer ID is required."
+msgstr ""
+
+#: includes/rest/class-dealers-controller.php:308
+msgid "A dealer ID is required."
+msgstr ""
+
+#: includes/rest/class-distributor-controller.php:70
+msgid "You do not have permission to manage distributors."
+msgstr ""
+
+#: includes/rest/class-distributor-controller.php:78
+msgid "Distributor integrations require an active Business licence."
+msgstr ""
+
+#: includes/rest/class-distributor-controller.php:99 includes/rest/class-distributor-controller.php:131 includes/rest/class-distributor-controller.php:183
+msgid "Unknown distributor."
+msgstr ""
+
+#: includes/rest/class-distributor-controller.php:144
+msgid "This request could not be verified. Reload the page and try again."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:107
+msgid "This submission was rejected."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:118
+msgid "Unknown action."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:141
+msgid "The transfer for this link no longer exists."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:157
+msgid "Dealer reported this shipment was not theirs."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:196
+msgid "Thank you — receipt confirmed. The customer has been notified."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:197
+msgid "Thank you — the store has been notified and will be in touch."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:225
+msgid "Dealer record not found."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:237
+msgid "The last four characters of the FFL licence number did not match."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:252
+msgid "Your verification code has expired. Please request a new one."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:260
+msgid "That verification code was not correct."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:283
+msgid "Dealer reported an issue with transfer %s"
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:288
+msgid "A dealer reported a problem with transfer %s."
+msgstr ""
+
+#: includes/rest/class-portal-controller.php:293 includes/services/class-nics-tracker.php:245
+msgid "Open the transfer"
+msgstr ""
+
+#: includes/rest/class-transfers-controller.php:145 includes/rest/class-transfers-controller.php:181
+msgid "This tracking link is not valid."
+msgstr ""
+
+#: includes/rest/class-transfers-controller.php:280
+msgid "Select an active dealer for this transfer."
+msgstr ""
+
+#: includes/rest/class-transfers-controller.php:305
+msgid "Could not create the transfer record."
+msgstr ""
+
+#: includes/rest/class-transfers-controller.php:317
+msgid "Transfer created manually by staff."
+msgstr ""
+
+#: includes/rest/class-webhook-controller.php:69
+msgid "No NICS webhook secret is configured on this site."
+msgstr ""
+
+#: includes/rest/class-webhook-controller.php:140
+msgid "A webhook connection ID is required."
+msgstr ""
+
+#: includes/services/class-atf-sync.php:60
+msgid "Could not determine the current ATF download URL."
+msgstr ""
+
+#: includes/services/class-atf-sync.php:65
+msgid "The PHP ZipArchive extension is required to import the ATF list."
+msgstr ""
+
+#: includes/services/class-atf-sync.php:88
+msgid "The ATF download returned HTTP %d."
+msgstr ""
+
+#: includes/services/class-atf-sync.php:94
+msgid "Could not open the downloaded ATF archive."
+msgstr ""
+
+#: includes/services/class-atf-sync.php:103
+msgid "No CSV files were found inside the ATF archive."
+msgstr ""
+
+#: includes/services/class-atf-sync.php:151
+msgid "Could not read an extracted ATF CSV file."
+msgstr ""
+
+#: includes/services/class-compliance.php:214
+msgid "Advisory: the selected dealer is in %1$s while the buyer bills to %2$s. This is normal for interstate sales and is recorded for audit purposes only."
+msgstr ""
+
+#: includes/services/class-compliance.php:247
+msgid "A valid two-letter state code is required."
+msgstr ""
+
+#: includes/services/class-compliance.php:255
+msgid "A rule key is required."
+msgstr ""
+
+#: includes/services/class-compliance.php:367
+msgid "This report describes how this installation is configured and how complete its records are. It is not an assessment of legal compliance."
+msgstr ""
+
+#: includes/services/class-dealer-service.php:350
+msgid "No editable dealer fields were supplied."
+msgstr ""
+
+#: includes/services/class-mailer.php:57
+msgid "Invalid recipient address."
+msgstr ""
+
+#: includes/services/class-mailer.php:80
+msgid "wp_mail() returned false — check the site SMTP configuration."
+msgstr ""
+
+#: includes/services/class-mailer.php:139
+msgid "Hello {customer_name},"
+msgstr ""
+
+#: includes/services/class-mailer.php:184
+msgid "No dealer email address on file — confirmation link was not sent."
+msgstr ""
+
+#: includes/services/class-mailer.php:193 includes/services/class-mailer.php:245
+msgid "Hello {dealer_name},"
+msgstr ""
+
+#: includes/services/class-mailer.php:194
+msgid "A firearm is on its way to you for transfer to a customer of {store_name}. Please confirm receipt using the button below once it arrives."
+msgstr ""
+
+#: includes/services/class-mailer.php:196
+msgid "This link is unique to this shipment and can only be used once."
+msgstr ""
+
+#: includes/services/class-mailer.php:201
+msgid "Action needed: confirm receipt of transfer {transfer_ref}"
+msgstr ""
+
+#: includes/services/class-mailer.php:206
+msgid "Confirm Receipt"
+msgstr ""
+
+#: includes/services/class-mailer.php:207
+msgid "Confirm you received this firearm shipment."
+msgstr ""
+
+#: includes/services/class-mailer.php:246
+msgid "We have not yet received your confirmation for transfer {transfer_ref}. If the firearm has arrived, please use the confirmation link in our earlier email. If you cannot find it, reply to this message and we will issue a new one."
+msgstr ""
+
+#: includes/services/class-mailer.php:252
+msgid "Reminder: transfer {transfer_ref} awaiting your confirmation"
+msgstr ""
+
+#: includes/services/class-mailer.php:290
+msgid "Your FFL transfer {transfer_ref} is confirmed"
+msgstr ""
+
+#: includes/services/class-mailer.php:291
+msgid "Thanks — your order is confirmed and we have started the transfer process with your selected dealer."
+msgstr ""
+
+#: includes/services/class-mailer.php:294
+msgid "Your firearm is on its way to {dealer_name}"
+msgstr ""
+
+#: includes/services/class-mailer.php:295
+msgid "Your firearm has shipped to your selected FFL dealer. We will let you know as soon as they confirm it has arrived."
+msgstr ""
+
+#: includes/services/class-mailer.php:298
+msgid "Your firearm has arrived at {dealer_name}"
+msgstr ""
+
+#: includes/services/class-mailer.php:299
+msgid "Your dealer has confirmed the firearm arrived. Contact them to arrange your pickup appointment and bring valid government-issued photo identification."
+msgstr ""
+
+#: includes/services/class-mailer.php:302
+msgid "Transfer {transfer_ref} is complete"
+msgstr ""
+
+#: includes/services/class-mailer.php:303
+msgid "Your transfer is complete. Thank you for your business."
+msgstr ""
+
+#: includes/services/class-mailer.php:306
+msgid "Transfer {transfer_ref} has been cancelled"
+msgstr ""
+
+#: includes/services/class-mailer.php:307
+msgid "This transfer has been cancelled. If you did not expect this, please contact us."
+msgstr ""
+
+#: includes/services/class-mailer.php:407
+msgid "View details"
+msgstr ""
+
+#: includes/services/class-mailer.php:430
+msgid "This message relates to a firearm transfer through a licensed FFL dealer. Compliance decisions are made by the dealer, not by this notification."
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:33
+msgid "Submitted — awaiting response"
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:34
+msgid "Proceed"
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:35
+msgid "Delayed"
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:36
+msgid "Denied"
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:55
+msgid "Unknown background-check outcome."
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:121
+msgid "Background check outcome recorded: %s."
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:154
+msgid "The payload did not identify a transfer."
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:164
+msgid "No transfer matches that reference."
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:236
+msgid "Three-business-day window reached — transfer %s"
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:239
+msgid "The federal three-business-day delay window has elapsed for this transfer."
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:240
+msgid "Transfer:"
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:241
+msgid "Customer:"
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:242
+msgid "Window expired:"
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:243
+msgid "Under 18 U.S.C. § 922(t)(1)(B)(ii) the dealer may proceed at their discretion. That decision is theirs alone — this plugin has taken no action."
+msgstr ""
+
+#: includes/services/class-nics-tracker.php:265
+msgid "The three-business-day window elapsed. Staff were notified. No status was changed automatically."
+msgstr ""
+
+#: includes/services/class-status-bridge.php:82
+msgid "Payment for the linked order failed (previous status: %s). Staff review recommended before shipping."
+msgstr ""
+
+#: includes/services/class-status-bridge.php:90
+msgid "Payment failed on an order with an active FFL transfer"
+msgstr ""
+
+#: includes/services/class-status-bridge.php:93
+msgid "Payment failed for order #%d, which has one or more active FFL transfers. Review before shipping anything to the dealer."
+msgstr ""
+
+#: includes/services/class-status-bridge.php:140
+msgid "All FFL transfers on this order are complete."
+msgstr ""
+
+#: includes/services/class-token.php:72
+msgid "A transfer and dealer are required to issue a token."
+msgstr ""
+
+#: includes/services/class-token.php:120
+msgid "Could not store the confirmation token."
+msgstr ""
+
+#: includes/services/class-token.php:143
+msgid "Missing confirmation token."
+msgstr ""
+
+#: includes/services/class-token.php:148
+msgid "Invalid confirmation token."
+msgstr ""
+
+#: includes/services/class-token.php:153
+msgid "Malformed confirmation token."
+msgstr ""
+
+#: includes/services/class-token.php:159
+msgid "Unsupported token version."
+msgstr ""
+
+#: includes/services/class-token.php:166
+msgid "Invalid token signature."
+msgstr ""
+
+#: includes/services/class-token.php:170
+msgid "This confirmation link has expired. Please ask the store for a new one."
+msgstr ""
+
+#: includes/services/class-token.php:183
+msgid "This confirmation link is not recognised."
+msgstr ""
+
+#: includes/services/class-token.php:187
+msgid "This confirmation link has been replaced by a newer one."
+msgstr ""
+
+#: includes/services/class-token.php:193
+msgid "This link has already been used."
+msgstr ""
+
+#: includes/services/class-token.php:369
+msgid "Too many requests. Please wait a moment and try again."
+msgstr ""
+
+#: includes/services/class-transfer-service.php:301
+msgid "Unknown transfer status."
+msgstr ""
+
+#: includes/services/class-transfer-service.php:424
+msgid "Transfer record updated."
+msgstr ""
+
+#: includes/services/class-transfer-service.php:457
+msgid "That dealer does not exist."
+msgstr ""
+
+#: includes/services/class-transfer-service.php:477
+msgid "Transfer reassigned to %s. Any outstanding confirmation links were revoked."
+msgstr ""
+
+#: includes/services/class-webhook-dispatcher.php:144
+msgid "The target endpoint no longer exists."
+msgstr ""
+
+#: includes/services/class-webhook-dispatcher.php:157
+msgid "Refused: the endpoint resolves to a private or non-HTTP address."
+msgstr ""
+
+#: includes/services/class-webhook-dispatcher.php:324
+msgid "That webhook endpoint does not exist."
+msgstr ""
+
+#: includes/services/class-webhook-dispatcher.php:361
+msgid "That URL was refused. Endpoints must be public HTTP or HTTPS addresses."
+msgstr ""

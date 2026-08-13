@@ -1,0 +1,297 @@
+/**
+ * Dealer confirmation portal.
+ *
+ * Standalone page — no theme styles are loaded, so this file sets its own
+ * baseline. Sized for a phone held at a shipping counter: large tap targets,
+ * high contrast, no horizontal scroll at 320px.
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+body.fflcs-portal {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	background: var(--fflcs-bg-muted);
+	color: var(--fflcs-text);
+	font-family: var(--fflcs-font);
+	font-size: var(--fflcs-text-base);
+	line-height: 1.55;
+	-webkit-font-smoothing: antialiased;
+}
+
+.fflcs-portal__shell {
+	max-width: 560px;
+	margin: 0 auto;
+	padding: var(--fflcs-space-6) var(--fflcs-space-4) var(--fflcs-space-8);
+}
+
+.fflcs-portal__brand {
+	padding: var(--fflcs-space-4) 0;
+	text-align: center;
+}
+
+.fflcs-portal__brand img {
+	height: 34px;
+	width: auto;
+}
+
+.fflcs-portal__card {
+	padding: var(--fflcs-space-6);
+	background: var(--fflcs-bg);
+	border-radius: var(--fflcs-radius-lg);
+	box-shadow: var(--fflcs-shadow);
+}
+
+.fflcs-portal__intro h1,
+.fflcs-portal__message h1 {
+	margin: 0 0 var(--fflcs-space-2);
+	font-size: var(--fflcs-text-xl);
+	font-weight: 700;
+	line-height: 1.25;
+}
+
+.fflcs-portal__lede {
+	margin: 0 0 var(--fflcs-space-5);
+	color: var(--fflcs-text-muted);
+}
+
+/* ── Facts ──────────────────────────────────────────────────────────────── */
+
+.fflcs-portal__facts {
+	margin: 0 0 var(--fflcs-space-6);
+	padding: var(--fflcs-space-4);
+	background: var(--fflcs-bg-subtle);
+	border: 1px solid var(--fflcs-border);
+	border-radius: var(--fflcs-radius);
+}
+
+.fflcs-portal__facts > div {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--fflcs-space-2);
+	padding: var(--fflcs-space-2) 0;
+	border-bottom: 1px solid var(--fflcs-border);
+}
+
+.fflcs-portal__facts > div:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+.fflcs-portal__facts > div:first-child {
+	padding-top: 0;
+}
+
+.fflcs-portal__facts dt {
+	flex: 0 0 40%;
+	font-size: var(--fflcs-text-sm);
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-portal__facts dd {
+	flex: 1 1 55%;
+	margin: 0;
+	font-weight: 600;
+	word-break: break-word;
+}
+
+/* ── Form ───────────────────────────────────────────────────────────────── */
+
+.fflcs-portal__field {
+	margin-bottom: var(--fflcs-space-4);
+}
+
+.fflcs-portal__field label {
+	display: block;
+	margin-bottom: var(--fflcs-space-1);
+	font-size: var(--fflcs-text-sm);
+	font-weight: 600;
+}
+
+.fflcs-portal__field input[type="text"],
+.fflcs-portal__field textarea {
+	width: 100%;
+	padding: 12px var(--fflcs-space-3);
+	border: 1px solid var(--fflcs-border-strong);
+	border-radius: var(--fflcs-radius-sm);
+	font-family: inherit;
+	font-size: 16px; /* 16px prevents iOS Safari zooming the page on focus. */
+	line-height: 1.4;
+	color: var(--fflcs-text);
+	background: var(--fflcs-bg);
+}
+
+.fflcs-portal__field input:focus,
+.fflcs-portal__field textarea:focus,
+.fflcs-portal__btn:focus-visible {
+	outline: 2px solid transparent;
+	border-color: var(--fflcs-primary);
+	box-shadow: var(--fflcs-focus-ring);
+}
+
+.fflcs-portal__hint {
+	margin: var(--fflcs-space-1) 0 0;
+	font-size: var(--fflcs-text-xs);
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-portal__otp {
+	display: flex;
+	gap: var(--fflcs-space-2);
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.fflcs-portal__otp input {
+	flex: 1 1 140px;
+	letter-spacing: 0.2em;
+	font-family: var(--fflcs-font-mono);
+}
+
+/* ── Buttons ────────────────────────────────────────────────────────────── */
+
+.fflcs-portal__actions {
+	display: grid;
+	gap: var(--fflcs-space-2);
+	margin-top: var(--fflcs-space-5);
+}
+
+.fflcs-portal__btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	/* 48px minimum height — a mis-tap here files a compliance record. */
+	min-height: 48px;
+	padding: 12px var(--fflcs-space-5);
+	border: 1px solid transparent;
+	border-radius: var(--fflcs-radius-sm);
+	font-family: inherit;
+	font-size: var(--fflcs-text-base);
+	font-weight: 650;
+	cursor: pointer;
+	transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.fflcs-portal__btn:disabled {
+	opacity: 0.55;
+	cursor: not-allowed;
+}
+
+.fflcs-portal__btn--primary {
+	background: var(--fflcs-success);
+	color: #fff;
+}
+
+.fflcs-portal__btn--primary:hover:not(:disabled) {
+	filter: brightness(0.94);
+}
+
+.fflcs-portal__btn--warning {
+	background: var(--fflcs-warning-light);
+	color: var(--fflcs-warning);
+	border-color: var(--fflcs-warning);
+}
+
+.fflcs-portal__btn--ghost {
+	background: transparent;
+	border-color: var(--fflcs-border-strong);
+	color: var(--fflcs-text-muted);
+	min-height: 44px;
+	font-weight: 550;
+}
+
+.fflcs-portal__btn--ghost:hover:not(:disabled) {
+	border-color: var(--fflcs-text-muted);
+	color: var(--fflcs-text);
+}
+
+/* ── Result + messages ──────────────────────────────────────────────────── */
+
+.fflcs-portal__result {
+	margin-top: var(--fflcs-space-4);
+	padding: var(--fflcs-space-4);
+	border-radius: var(--fflcs-radius);
+	font-size: var(--fflcs-text-sm);
+	line-height: 1.5;
+}
+
+.fflcs-portal__result.is-info {
+	background: var(--fflcs-bg-muted);
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-portal__result.is-success {
+	background: var(--fflcs-success-light);
+	color: var(--fflcs-success);
+	font-weight: 600;
+}
+
+.fflcs-portal__result.is-error {
+	background: var(--fflcs-danger-light);
+	color: var(--fflcs-danger);
+	font-weight: 600;
+}
+
+.fflcs-portal__message {
+	text-align: center;
+	padding: var(--fflcs-space-4) 0;
+}
+
+.fflcs-portal__message p {
+	margin: 0;
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-portal__message--success h1 {
+	color: var(--fflcs-success);
+}
+
+.fflcs-portal__message--warning h1 {
+	color: var(--fflcs-warning);
+}
+
+.fflcs-portal__message--error h1 {
+	color: var(--fflcs-danger);
+}
+
+.fflcs-portal__legal {
+	margin: var(--fflcs-space-5) 0 0;
+	padding-top: var(--fflcs-space-4);
+	border-top: 1px solid var(--fflcs-border);
+	font-size: var(--fflcs-text-xs);
+	line-height: 1.6;
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-portal__footer {
+	padding: var(--fflcs-space-5) 0 0;
+	text-align: center;
+	font-size: var(--fflcs-text-xs);
+	color: var(--fflcs-text-muted);
+}
+
+.fflcs-hp {
+	position: absolute;
+	left: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+@media (max-width: 480px) {
+	.fflcs-portal__shell {
+		padding: var(--fflcs-space-3) var(--fflcs-space-3) var(--fflcs-space-6);
+	}
+
+	.fflcs-portal__card {
+		padding: var(--fflcs-space-4);
+	}
+
+	.fflcs-portal__facts dt,
+	.fflcs-portal__facts dd {
+		flex: 1 1 100%;
+	}
+}

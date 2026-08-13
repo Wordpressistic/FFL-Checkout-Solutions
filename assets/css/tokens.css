@@ -1,0 +1,81 @@
+/**
+ * Design tokens.
+ *
+ * Every colour, radius and spacing step used by the checkout widget, dealer
+ * portal, tracking page and admin screens resolves from here. The theming
+ * engine overrides only the handful of values a merchant actually changed, as
+ * inline custom properties — so this file stays cacheable and the override
+ * payload stays tiny.
+ *
+ * Palette is a professional blue/gray. Neutrals are a true slate ramp rather
+ * than pure greys, so text on tinted surfaces stays legible.
+ */
+
+:root {
+	/* Brand + semantic */
+	--fflcs-primary: #2563eb;
+	--fflcs-primary-dark: #1d4ed8;
+	--fflcs-primary-light: #dbeafe;
+	--fflcs-success: #059669;
+	--fflcs-success-light: #d1fae5;
+	--fflcs-warning: #d97706;
+	--fflcs-warning-light: #fef3c7;
+	--fflcs-danger: #dc2626;
+	--fflcs-danger-light: #fee2e2;
+
+	/* Neutrals */
+	--fflcs-surface: #1e293b;
+	--fflcs-bg: #ffffff;
+	--fflcs-bg-subtle: #f8fafc;
+	--fflcs-bg-muted: #f1f5f9;
+	--fflcs-border: #e2e8f0;
+	--fflcs-border-strong: #cbd5e1;
+	--fflcs-text: #0f172a;
+	--fflcs-text-muted: #64748b;
+	--fflcs-text-inverse: #f8fafc;
+
+	/* Typography */
+	--fflcs-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	--fflcs-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+	--fflcs-text-xs: 0.75rem;
+	--fflcs-text-sm: 0.8125rem;
+	--fflcs-text-base: 0.9375rem;
+	--fflcs-text-lg: 1.0625rem;
+	--fflcs-text-xl: 1.25rem;
+
+	/* Spacing */
+	--fflcs-space-1: 4px;
+	--fflcs-space-2: 8px;
+	--fflcs-space-3: 12px;
+	--fflcs-space-4: 16px;
+	--fflcs-space-5: 20px;
+	--fflcs-space-6: 24px;
+	--fflcs-space-8: 32px;
+
+	/* Shape */
+	--fflcs-radius-sm: 6px;
+	--fflcs-radius: 10px;
+	--fflcs-radius-lg: 14px;
+	--fflcs-radius-full: 999px;
+
+	/* Elevation */
+	--fflcs-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+	--fflcs-shadow: 0 1px 3px rgba(15, 23, 42, 0.1), 0 1px 2px rgba(15, 23, 42, 0.06);
+	--fflcs-shadow-lg: 0 10px 25px rgba(15, 23, 42, 0.1);
+
+	/* Focus ring — one definition, used everywhere, so keyboard focus is
+	   consistent and never removed without a replacement. */
+	--fflcs-focus-ring: 0 0 0 3px rgba(37, 99, 235, 0.35);
+}
+
+/* Respect a reader's reduced-motion preference across every plugin surface. */
+@media (prefers-reduced-motion: reduce) {
+	.fflcs-widget *,
+	.fflcs-portal *,
+	.fflcs-tracking * {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
